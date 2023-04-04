@@ -9,13 +9,10 @@ function Footer() {
           <p className="text-gray-400">Copyright © 2023 Creado por Guillezdev. Todos los derechos reservados</p>
           <div className="flex items-center">
             <a href="https://github.com/@guillezdev" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white mr-4">
-              <FaGithub className="inline-block mr-1" />GitHub
-            </a>
-            <a href="https://discord.gg/misitioweb" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white mr-4">
-              <FaDiscord className="inline-block mr-1" />Discord
+              <FaGithub size={50} className="inline-block mr-1" />GitHub
             </a>
             <a href="https://wa.me/+5358902778" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
-              <FaWhatsapp className="inline-block mr-1" />WhatsApp
+              <FaWhatsapp size={50} className="inline-block mr-1" />WhatsApp
             </a>
           </div>
         </div>

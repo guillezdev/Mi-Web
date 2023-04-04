@@ -34,8 +34,8 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 bg-white  backdrop-filter
-      ${isScrolled ? "bg-opacity-10 shadow-sm backdrop-blur-sm " : ""}`}
+      className={`fixed top-0 left-0 right-0 z-50 bg-white  backdrop-filter bg-opacity-10 shadow-sm backdrop-blur-sm 
+      ${isScrolled ? "" : ""}`}
     >
       <div className='container mx-auto py-4 px-6 md:px-8'>
         <div className='flex justify-between items-center'>
