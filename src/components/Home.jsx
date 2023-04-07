@@ -7,14 +7,27 @@ function Home() {
         <div className='pt-20 lg:pt-32 lg:flex'>
           <div className='w-full lg:w-1/2 pt-20 lg:pt-0 px-4 sm:px-6 lg:px-8 text-center lg:text-left'>
             <h4 className='text-2xl font-bold mb-4'>{"¡Hey!"}</h4>
-            <h1 className='text-4xl font-bold mb-4'>{"Soy Guillermo Gonzalez"}</h1>
+            <h1 className='text-4xl font-bold mb-4'>
+              {"Soy Guillermo Gonzalez"}
+            </h1>
             <p className='text-lg mb-8'>
               Desarrollador web especializado en el frontend
             </p>
-            <p className='mb-8'>
-              {'"Programar es una mezcla de arte y ciencia, donde la creatividad se encuentra con la lógica para dar vida a soluciones innovadoras."'}
+            <p className='text-lg mb-8'>
+              Como desarrollador web, disfruto cada etapa de mi carrera. Me
+              apasiona el minimalismo y encontrar formas de simplificar lo que
+              parece difícil. Me esfuerzo por completar cada proyecto que
+              emprendo y dejarlo listo para su uso, con la calidad y atención al
+              detalle que se merece. La constancia es una de mis principales
+              virtudes y siempre estoy buscando nuevos retos para superarme a mí
+              mismo. ¡Siempre estoy listo para enfrentar desafíos y seguir
+              aprendiendo!
             </p>
-            <p className='text-lg mb-8'>Como desarrollador web, disfruto cada etapa de mi carrera. Me apasiona el minimalismo y encontrar formas de simplificar lo que parece difícil. Me esfuerzo por completar cada proyecto que emprendo y dejarlo listo para su uso, con la calidad y atención al detalle que se merece. La constancia es una de mis principales virtudes y siempre estoy buscando nuevos retos para superarme a mí mismo. ¡Siempre estoy listo para enfrentar desafíos y seguir aprendiendo!</p>
+            <p className='mb-8'>
+              {
+                '"Programar es una mezcla de arte y ciencia, donde la creatividad se encuentra con la lógica para dar vida a soluciones innovadoras."'
+              }
+            </p>
           </div>
           <div className='w-full lg:w-1/2'>
             <img
