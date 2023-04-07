@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaDiscord, FaWhatsapp } from 'react-icons/fa';
+import { FaGithub, FaWhatsapp } from 'react-icons/fa';
 
 function Footer() {
   return (
