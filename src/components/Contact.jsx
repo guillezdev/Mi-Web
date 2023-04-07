@@ -16,7 +16,7 @@ function Contact() {
             />
           </div>
           <div className='w-full lg:w-1/2 pt-20 lg:pt-0 px-4 sm:px-6 lg:px-8 text-center lg:text-left'>
-            <form name="contact" method="POST"  data-netlify="true" className="mb-4">
+            <form name="contact" method="POST" data-netlify="true" className="mb-4">
               <div className='mb-4'>
                 <label
                   htmlFor='name'
