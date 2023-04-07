@@ -11,9 +11,10 @@ function Home() {
             <p className='text-lg mb-8'>
               Desarrollador web especializado en el frontend
             </p>
-            <p>
+            <p className='mb-8'>
               {'"Programar es una mezcla de arte y ciencia, donde la creatividad se encuentra con la lógica para dar vida a soluciones innovadoras."'}
             </p>
+            <p className='text-lg mb-8'>Como desarrollador web, disfruto cada etapa de mi carrera. Me apasiona el minimalismo y encontrar formas de simplificar lo que parece difícil. Me esfuerzo por completar cada proyecto que emprendo y dejarlo listo para su uso, con la calidad y atención al detalle que se merece. La constancia es una de mis principales virtudes y siempre estoy buscando nuevos retos para superarme a mí mismo. ¡Siempre estoy listo para enfrentar desafíos y seguir aprendiendo!</p>
           </div>
           <div className='w-full lg:w-1/2'>
             <img

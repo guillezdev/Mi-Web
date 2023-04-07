@@ -5,7 +5,10 @@ const Skills = () => {
   return (
     <section id='skills' className='py-10'>
       <div className=' text-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+        <div className='text-center' >
         <h2 className='text-3xl font-bold text-gray-800 mb-4 select-none'>Habilidades</h2>
+        <p  className='mb-4 max-w-2xl mx-auto' >Conoce las competencias técnicas y profesionales que he desarrollado a lo largo de mi carrera. ¡Echa un vistazo y descubre cómo puedo contribuir a tu equipo!</p>
+        </div>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5'>
           {skills.map((skill) => (
             <div

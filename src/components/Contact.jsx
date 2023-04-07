@@ -5,6 +5,7 @@ function Contact() {
     <div className='' id='contact'>
       <div className='text-center'>
         <h2 className='text-3xl font-bold text-gray-800'>Contáctame</h2>
+        <p  className='mb-4 max-w-2xl mx-auto' > En esta sección encontrarás toda la información necesaria para ponerte en contacto conmigo.</p>
       </div>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='lg:pt-6 lg:flex'>

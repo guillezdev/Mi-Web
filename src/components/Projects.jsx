@@ -78,6 +78,7 @@ function Projects() {
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='text-center'>
           <h2 className='text-3xl font-bold text-gray-800 mb-4 select-none'>Proyectos</h2>
+          <p  className='mb-4 max-w-2xl mx-auto' >Explora los proyectos en los que he trabajado y su implementación en producción. También podrás conocer el Stack tecnológico con el que fueron construidos. ¡Espero que lo disfrutes!</p>
         </div>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4'>
           {projects.map((project) => (
