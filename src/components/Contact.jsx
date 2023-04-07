@@ -17,6 +17,7 @@ function Contact() {
           </div>
           <div className='w-full lg:w-1/2 pt-20 lg:pt-0 px-4 sm:px-6 lg:px-8 text-center lg:text-left'>
             <form name="contactame" method="post" data-netlify="true" className="mb-4">
+            <input type="hidden" name="form-name" value="contactame" />
               <div className='mb-4'>
                 <label
                   htmlFor='name'
