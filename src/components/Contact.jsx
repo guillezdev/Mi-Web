@@ -24,7 +24,6 @@ function Contact() {
             >
               <input type='hidden' name='form-name' value='contactame' />
               <label
-                htmlFor='name'
                 className='block text-gray-700 font-medium mb-2'
               >
                 Nombre
@@ -34,8 +33,7 @@ function Contact() {
                 name='name'
                 className='w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:border-blue-500'
               />
-              <label
-                htmlFor='email'
+              <label             
                 className='block text-gray-700 font-medium mb-2'
               >
                 Correo electrónico
@@ -46,7 +44,6 @@ function Contact() {
                 className='w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:border-blue-500'
               />
               <label
-                htmlFor='message'
                 className='block text-gray-700 font-medium mb-2'
               >
                 Mensaje
