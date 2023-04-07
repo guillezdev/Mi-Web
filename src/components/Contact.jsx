@@ -16,47 +16,46 @@ function Contact() {
             />
           </div>
           <div className='w-full lg:w-1/2 pt-20 lg:pt-0 px-4 sm:px-6 lg:px-8 text-center lg:text-left'>
-            <form name="contactame" method="post" data-netlify="true" className="mb-4">
-            <input type="hidden" name="form-name" value="contactame" />
-              <div className='mb-4'>
-                <label
-                  htmlFor='name'
-                  className='block text-gray-700 font-medium mb-2'
-                >
-                  Nombre
-                </label>
-                <input
-                  type='text'
-                  name='name'
-                  className='w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:border-blue-500'
-                />
-              </div>
-              <div className='mb-4'>
-                <label
-                  htmlFor='email'
-                  className='block text-gray-700 font-medium mb-2'
-                >
-                  Correo electrónico
-                </label>
-                <input
-                  type='email'
-                  name='email'
-                  className='w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:border-blue-500'
-                />
-              </div>
-              <div className='mb-4'>
-                <label
-                  htmlFor='message'
-                  className='block text-gray-700 font-medium mb-2'
-                >
-                  Mensaje
-                </label>
-                <textarea
-                  name='message'
-                  rows='4'
-                  className='w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:border-blue-500'
-                ></textarea>
-              </div>
+            <form
+              name='contactame'
+              method='post'
+              data-netlify='true'
+              className='mb-4'
+            >
+              <input type='hidden' name='form-name' value='contactame' />
+              <label
+                htmlFor='name'
+                className='block text-gray-700 font-medium mb-2'
+              >
+                Nombre
+              </label>
+              <input
+                type='text'
+                name='name'
+                className='w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:border-blue-500'
+              />
+              <label
+                htmlFor='email'
+                className='block text-gray-700 font-medium mb-2'
+              >
+                Correo electrónico
+              </label>
+              <input
+                type='email'
+                name='email'
+                className='w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:border-blue-500'
+              />
+              <label
+                htmlFor='message'
+                className='block text-gray-700 font-medium mb-2'
+              >
+                Mensaje
+              </label>
+              <textarea
+                name='message'
+                rows='4'
+                className='w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:border-blue-500'
+              ></textarea>
               <button
                 type='submit'
                 className='bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue'
