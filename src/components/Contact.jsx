@@ -26,7 +26,6 @@ function Contact() {
                 </label>
                 <input
                   type='text'
-                  id='name'
                   name='name'
                   className='w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:border-blue-500'
                 />
@@ -40,7 +39,6 @@ function Contact() {
                 </label>
                 <input
                   type='email'
-                  id='email'
                   name='email'
                   className='w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:border-blue-500'
                 />
@@ -53,7 +51,6 @@ function Contact() {
                   Mensaje
                 </label>
                 <textarea
-                  id='message'
                   name='message'
                   rows='4'
                   className='w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:border-blue-500'
