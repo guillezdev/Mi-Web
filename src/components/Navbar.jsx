@@ -61,7 +61,7 @@ const Navbar = () => {
                   duration={500}
                   className='text-gray-800 hover:text-gray-600 cursor-pointer select-none'
                 >
-                  {"<Inicio>"}
+                  Inicio
                 </Link>
               </li>
               <li>
@@ -74,7 +74,7 @@ const Navbar = () => {
                   cursor='pointer'
                   className='text-gray-800 hover:text-gray-600 cursor-pointer select-none'
                 >
-                 {"<Proyectos>"}
+                 Proyectos
                 </Link>
               </li>
               <li>
@@ -87,7 +87,7 @@ const Navbar = () => {
                   cursor='pointer'
                   className='text-gray-800 hover:text-gray-600 cursor-pointer select-none'
                 >
-                  {"<Habilidades>"}
+                 Habilidades
                 </Link>
               </li>
               <li>
@@ -100,7 +100,7 @@ const Navbar = () => {
                   cursor='pointer'
                   className='text-gray-800 hover:text-gray-600 cursor-pointer select-none'
                 >
-                 {"<Contacto>"}
+                Contacto
                 </Link>
               </li>
             </ul>
@@ -169,7 +169,7 @@ const Navbar = () => {
                   duration={500}
                   className='text-gray-800 hover:text-gray-600 cursor-pointer select-none'
                 >
-                  {"<Inicio>"}
+                  Inicio
                 </Link>
               </li>
               <li>
@@ -182,7 +182,7 @@ const Navbar = () => {
                   cursor='pointer'
                   className='text-gray-800 hover:text-gray-600 cursor-pointer select-none'
                 >
-                 {"<Proyectos>"}
+                 Proyectos
                 </Link>
               </li>
               <li>
@@ -195,7 +195,7 @@ const Navbar = () => {
                   cursor='pointer'
                   className='text-gray-800 hover:text-gray-600 cursor-pointer select-none'
                 >
-                  {"<Habilidades>"}
+                 Habilidades
                 </Link>
               </li>
               <li>
@@ -208,7 +208,7 @@ const Navbar = () => {
                   cursor='pointer'
                   className='text-gray-800 hover:text-gray-600 cursor-pointer select-none'
                 >
-                 {"<Contacto>"}
+                 Contacto
                 </Link>
                 </li>
               </ul>
