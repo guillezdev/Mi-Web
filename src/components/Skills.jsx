@@ -13,7 +13,7 @@ const Skills = () => {
           {skills.map((skill) => (
             <div
               key={skill.id}
-              className='rounded-lg shadow-md p-5 bg-white flex flex-col items-center transform hover:scale-105 bg-gradient-to-b from-indigo-50 to-indigo-300'
+              className='rounded-lg shadow-md p-5 bg-white flex flex-col items-center transform hover:scale-105 hover:rotate-2 hover:shadow-xl bg-gradient-to-b from-indigo-50 to-indigo-300'
             >
               <skill.icon className='w-16 h-16 text-primary mb-2 select-none' />
               <h3 className='text-xl font-semibold mb-1 select-none'>{skill.name}</h3>
