@@ -46,7 +46,7 @@ const Navbar = () => {
             offset={-70}
             duration={500}
             cursor='pointer'
-            className='text-xl font-bold text-gray-800 cursor-pointer select-none'
+            className='text-xl font-bold text-gray-800 cursor-pointer select-none hover:scale-90'
           >
             {"<GZD/>"}
           </Link>

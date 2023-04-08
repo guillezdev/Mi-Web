@@ -60,7 +60,7 @@ function Contact() {
               </div>
               <button
                 type='submit'
-                className='bg-indigo-400 hover:bg-indigo-500 text-white font-medium py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue'
+                className='bg-indigo-400 hover:scale-90 text-white font-medium py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue'
               >
                 Enviar
               </button>
