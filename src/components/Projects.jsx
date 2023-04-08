@@ -9,7 +9,7 @@ function ProjectCard(props) {
   return (
     <div className='bg-white border border-gray-300 rounded-lg shadow-xl overflow-hidden'>
       <img src={imageSrc} alt={title} className='w-full h-64 object-cover' />
-      <div className='p-4'>
+      <div className='p-4 bg-gradient-to-b from-indigo-50 to-indigo-300  h-full'>
         <h2 className='text-lg font-bold text-gray-800 mb-2 select-none'>
           {title}
         </h2>
@@ -20,7 +20,7 @@ function ProjectCard(props) {
             rel='noopener noreferrer'
             className='text-gray-500 hover:text-gray-800 mr-2'
           >
-            <FaGithub fill-blue-700 size={50} />
+            <FaGithub size={50} />
             Repo
           </a>
           <a
