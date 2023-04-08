@@ -38,7 +38,7 @@ function ProjectCard(props) {
           {tags.map((tag) => (
             <span
               key={tag}
-              className='px-2 py-1 bg-gray-200 text-gray-700 rounded-full mr-2 mb-2'
+              className='px-2 py-1 border-neutral-800 bg-gray-50 text-gray-700 rounded-full mr-2 mb-2'
             >
               {tag}
             </span>
