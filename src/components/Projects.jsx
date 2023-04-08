@@ -27,7 +27,7 @@ function ProjectCard(props) {
             href={liveLink}
             target='_blank'
             rel='noopener noreferrer'
-            className='text-gray-500 hover:text-gray-800'
+            className='text-gray-800 hover:text-gray-500'
           >
             <FaGlobe size={50} />
             Visitar
