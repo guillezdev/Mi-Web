@@ -30,7 +30,7 @@ function Contact() {
               </p>
               <div className='flex justify-center space-x-4'>
                 <a
-                  href='https://wa.me/tunumerodetelefono'
+                  href='https://wa.me/+5358902778'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
@@ -50,7 +50,7 @@ function Contact() {
                   />
                 </a>
                 <a
-                  href='https://discord.gg/tunick'
+                  href='https://discord.gg/Guillezdev#3016'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
