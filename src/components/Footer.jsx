@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaGithub, FaWhatsapp } from 'react-icons/fa';
+import { FaGithub , FaLinkedin } from 'react-icons/fa';
+
 
 function Footer() {
   return (
@@ -12,7 +13,7 @@ function Footer() {
               <FaGithub size={50} className="inline-block mr-1" />GitHub
             </a>
             <a href="https://wa.me/+5358902778" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
-              <FaWhatsapp size={50} className="inline-block mr-1" />WhatsApp
+              <FaLinkedin size={43} className="inline-block mr-1" />Linkedin
             </a>
           </div>
         </div>

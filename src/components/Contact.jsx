@@ -1,11 +1,17 @@
 import React from "react";
 import imgcont from "../assets/Contact.svg";
+import { FaWhatsapp, FaTelegram, FaDiscord } from "react-icons/fa";
+
 function Contact() {
   return (
     <div className='' id='contact'>
       <div className='text-center'>
         <h2 className='text-3xl mb-4 font-bold text-gray-800'>Contáctame</h2>
-        <p  className='mb-4 max-w-2xl mx-auto' > En esta sección encontrarás toda la información necesaria para ponerte en contacto conmigo.</p>
+        <p className='mb-4 max-w-2xl mx-auto'>
+          {" "}
+          En esta sección encontrarás toda la información necesaria para ponerte
+          en contacto conmigo.
+        </p>
       </div>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='lg:pt-6 lg:flex'>
@@ -16,9 +22,45 @@ function Contact() {
               alt='Front-img'
             />
           </div>
+          <div className=' p-4 rounded-lg'>
+            <p className=' text-center mb-2'>Puedes escribirme a mis redes!</p>
+            <div className='flex justify-center space-x-4'>
+              <a
+                href='https://wa.me/tunumerodetelefono'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <FaWhatsapp
+                  size={50}
+                  className='text-green-500 hover:text-green-800'
+                />
+              </a>
+              <a
+                href='https://t.me/guillezdev'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <FaTelegram
+                  size={50}
+                  className='text-blue-500 hover:text-blue-800'
+                />
+              </a>
+              <a
+                href='https://discord.gg/tunick'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <FaDiscord
+                  size={50}
+                  className='text-gray-500 hover:text-gray-800'
+                />
+              </a>
+            </div>
+            <p className=' text-center mt-2'>O enviarme un mesaje directo!</p>
+          </div>
           <div className='w-full lg:w-1/2 pt-20 lg:pt-0 px-4 sm:px-6 lg:px-8 text-center lg:text-left'>
-            <form name="contact" method="post" className="mb-4">
-            <input type="hidden" name="form-name" value="contact" />
+            <form name='contact' method='post' className='mb-4'>
+              <input type='hidden' name='form-name' value='contact' />
               <div className='mb-4'>
                 <label
                   htmlFor='name'
