@@ -23,11 +23,6 @@ function Home() {
               mismo. ¡Siempre estoy listo para enfrentar desafíos y seguir
               aprendiendo!
             </p>
-            <p className='mb-8'>
-              {
-                '"Programar es una mezcla de arte y ciencia, donde la creatividad se encuentra con la lógica para dar vida a soluciones innovadoras."'
-              }
-            </p>
           </div>
           <div className='w-full lg:w-1/2'>
             <img
