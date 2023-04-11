@@ -5,7 +5,7 @@ function Home() {
     <div className='relative' id='home'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='pt-20 lg:pt-32 lg:flex'>
-          <div className='w-full lg:w-1/2 pt-20 lg:pt-0 px-4 sm:px-6 lg:px-8 text-center lg:text-left'>
+          <div className='w-full lg:w-1/2 pt-20 lg:pt-0 px-4 sm:px-6 lg:px-8 lg:text-left'>
             <h4 className='text-2xl font-bold mb-4'>{"¡Hey!"}</h4>
             <h1 className='text-4xl font-bold mb-4'>
               {"Soy Guillermo Gonzalez"}
