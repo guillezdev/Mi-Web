@@ -1,6 +1,6 @@
 import React from "react";
 import imgcont from "../assets/Contact.svg";
-import { FaWhatsapp, FaTelegram, FaDiscord } from "react-icons/fa";
+import { FaWhatsapp, FaTelegram, FaDiscord, FaGithub } from "react-icons/fa";
 
 function Contact() {
   return (
@@ -14,10 +14,10 @@ function Contact() {
         </p>
       </div>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-        <div className='lg:pt-6 lg:flex'>
-          <div className='w-full lg:w-1/2'>
+        <div className='lg:pt-6 lg:flex '>
+          <div className='w-full lg:w-1/2 '>
             <img
-              className='w-full mb-4 h-auto lg:max-w-none mx-auto lg:mx-0'
+              className='hidden sm:block md:block  w-full mb-4 h-auto mx-auto lg:mx-0'
               src={imgcont}
               alt='Front-img'
             />
@@ -29,38 +29,56 @@ function Contact() {
                 Puedes escribirme a mis redes!
               </p>
               <div className='flex justify-center space-x-4'>
-                <a
-                  href='https://wa.me/+5358902778'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <FaWhatsapp
-                    size={50}
-                    className='text-green-500 hover:text-green-800'
-                  />
-                </a>
-                <a
-                  href='https://t.me/guillezdev'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <FaTelegram
-                    size={50}
-                    className='text-blue-500 hover:text-blue-800'
-                  />
-                </a>
-                <a
-                  href='https://discord.gg/Guillezdev#3016'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  <FaDiscord
-                    size={50}
-                    className='text-gray-500 hover:text-gray-800'
-                  />
-                </a>
+                <div className='contact'>
+                  <div className='up'>
+                    <a
+                      href='https://wa.me/+5358902778'
+                      target='_blank'
+                      className='card1 relative hover:text-white'
+                    >
+                      <FaWhatsapp
+                        size={50}
+                        className='text-center absolute top-6 right-3'
+                      />
+                    </a>
+                    <a
+                      href='https://t.me/guillezdev'
+                      target='_blank'
+                      className='card2 relative hover:text-white'
+                    >
+                      <FaTelegram
+                        size={50}
+                        className='text-center absolute top-6 left-3'
+                      />
+                    </a>
+                  </div>
+                  <div className='down'>
+                    <a
+                      href='https://discord.gg/Guillezdev#3016'
+                      target='_blank'
+                      className='card3 relative hover:text-white'
+                    >
+                      <FaDiscord
+                        size={50}
+                        className='text-center absolute bottom-6 right-3'
+                      />
+                    </a>
+
+                    <a
+                      href='https://github.com/guillezdev'
+                      target='_blank'
+                      className='card4 relative hover:text-white'
+                    >
+                      <FaGithub
+                        size={50}
+                        className='text-center absolute bottom-6 left-3'
+                      />
+                    </a>
+                  </div>
+                </div>
               </div>
               <p className=' text-center mt-2'>O enviarme un mesaje directo!</p>
+              <p className=' text-center mt-2'>guillezdev@gmail.com</p>
             </div>
             <form name='contact' method='post' className='mb-4'>
               <input type='hidden' name='form-name' value='contact' />

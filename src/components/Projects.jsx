@@ -9,7 +9,8 @@ function ProjectCard(props) {
   return (
     <div className='bg-white border border-gray-300 rounded-lg shadow-xl overflow-hidden'>
       <img src={imageSrc} alt={title} className='w-full h-64 object-cover' />
-      <div className='p-4 bg-gradient-to-b from-indigo-50 to-indigo-300  h-full'>
+      <hr />
+      <div className='p-4 h-full'>
         <h2 className='text-lg font-bold text-gray-800 mb-2 select-none'>
           {title}
         </h2>

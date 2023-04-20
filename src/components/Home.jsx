@@ -26,7 +26,7 @@ function Home() {
           </div>
           <div className='w-full lg:w-1/2'>
             <img
-              className='w-full h-auto lg:max-w-none mx-auto lg:mx-0'
+              className='hidden sm:block md:block w-full h-auto lg:max-w-none mx-auto lg:mx-0'
               src={imgFE}
               alt='Front-img'
             />
