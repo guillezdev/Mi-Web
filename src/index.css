@@ -374,3 +374,43 @@
   /* Non-prefixed version, currently
 									supported by Chrome, Edge, Opera and Firefox */
 }
+
+/*Subtitulo en mi descripcion*/
+.scanner span {
+  color: transparent;
+  font-size: 1.4rem;
+  font-weight: 600;
+  position: relative;
+  overflow: hidden;
+}
+
+.scanner span::before {
+  content: "Desarrollador..Web..Frontend...";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border-right: 5px solid #000000;
+  overflow: hidden;
+  color: #000000;
+  animation: frontend 4s linear infinite;
+}
+
+@keyframes frontend {
+  0% , 10% , 100% {
+    width: 0;
+  }
+
+  10%,20%,30%,40%,50%,60%,70%,80%,90%,100% {
+    border-right-color: transparent;
+  }
+
+  11%,21%,31%,41%,51%,61%,71%,81%,91% {
+    border-right-color: #8791DA;
+  }
+
+  50%, 80% {
+    width: 100%;
+  }
+}

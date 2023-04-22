@@ -10,9 +10,11 @@ function Home() {
           <h1 className='text-6xl font-bold mb-4'>
             {"Soy Guillermo Gonzalez"}
           </h1>
-          <p className='text-lg mb-8'>
-            Desarrollador web especializado en el frontend
-          </p>
+          <div className='loader'>
+            <div className='scanner'>
+              <span>12312312312313123123123111123</span>
+            </div>
+          </div>
           <p className='text-lg text-justify mb-8'>
             Como desarrollador web, disfruto cada etapa de mi carrera. Me
             apasion encontrar formas de simplificar lo que parece difícil. Me
