@@ -11,17 +11,25 @@ function Contact() {
         <h2 className='text-3xl mb-4 font-bold text-gray-800'>Contáctame</h2>
         <div className='mb-4 max-w-2xl mx-auto'>
           <div class='social-links'>
-            <a id='whatsapp' class='social-btn flex-center'>
+            <a id='whatsapp' href="https://wa.me/+5358902778" class='social-btn flex-center'>
               <FaWhatsapp size={50} />
               <span>Whatsapp</span>
             </a>
 
-            <a id='discord' class='social-btn flex-center'>
+            <a
+              id='discord'
+              href='https://discord.gg/Guillezdev#3016'
+              class='social-btn flex-center'
+            >
               <FaDiscord size={50} />
               <span>Discord</span>
             </a>
 
-            <a id='github' class='social-btn flex-center'>
+            <a
+              id='github'
+              href='https://github.com/guillezdev'
+              class='social-btn flex-center'
+            >
               <FaGithub size={50} />
               <span>GitHub</span>
             </a>

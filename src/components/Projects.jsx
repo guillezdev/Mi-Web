@@ -59,7 +59,7 @@ function Projects() {
         "Portafolio personal con ejemplos de trabajos y experiencia en diseño y desarrollo web.",
       imageSrc: proyect,
       githubLink: "https://github.com/guillezdev/Mi-Web",
-      liveLink: "https://serene-paletas-d769fd.netlify.app/",
+      liveLink: "https://guillezdev.netlify.app/",
       tags: ["React", "Tailwind"],
     },
     {
@@ -67,7 +67,7 @@ function Projects() {
       description: "Estos son fragmentos del Login para una tienda online",
       imageSrc: proyectLogin,
       githubLink: "https://github.com/guillezdev/UI-Login",
-      liveLink: "https://genuine-fairy-bfc3fb.netlify.app/",
+      liveLink: "https://e-commers-login.netlify.app/",
       tags: ["React", "CSS-BEM"],
     },
     {
