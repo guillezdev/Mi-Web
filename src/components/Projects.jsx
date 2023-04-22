@@ -75,7 +75,7 @@ function Projects() {
       description:
         "Realiza calculos relacionados con la matemática numérica",
       imageSrc: numeria,
-      githubLink: "https://github.com/guillezdev/Mis-Notas",
+      githubLink: "https://github.com/wolfsoul01/Proyecto-Numeria-Web",
       liveLink: "https://numeria.netlify.app/",
       tags: ["React", "Tailwind"],
     },
