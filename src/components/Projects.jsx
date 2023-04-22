@@ -71,15 +71,6 @@ function Projects() {
       tags: ["React", "CSS-BEM"],
     },
     {
-      title: "Mis Notas",
-      description:
-        "Aplicación para guardar notas, estas pueden ser editadas y eliminadas fácilmente , también se guardan en LocalStorage para no perderlas al recargar la pagina",
-      imageSrc: proyectNotas,
-      githubLink: "https://github.com/guillezdev/Mis-Notas",
-      liveLink: "https://comfy-meerkat-c6443d.netlify.app/",
-      tags: ["React", "Material UI"],
-    },
-    {
       title: "Numeria",
       description:
         "Realiza calculos relacionados con la matemática numérica",
