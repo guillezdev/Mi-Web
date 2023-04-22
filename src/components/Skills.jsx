@@ -9,15 +9,15 @@ const Skills = () => {
         <h2 className='text-3xl font-bold text-gray-800 mb-4 select-none '>Habilidades</h2>
         <p  className='mb-4 max-w-2xl mx-auto' >¡Echa un vistazo y descubre cómo puedo contribuir a tu equipo!</p>
         </div>
-        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5'>
+        <div className='grid grid-cols-4 sm:grid-cols-2 md:grid-cols-3 gap-5'>
           {skills.map((skill) => (
             <div
               key={skill.id}
-              className='rounded-lg shadow-md p-5 bg-white flex flex-col items-center transform hover:scale-105 hover:rotate-2 hover:shadow-xl bg-gradient-to-b from-indigo-50 to-indigo-300'
+              className='md:w-full rounded-lg shadow-md p-5 bg-white flex flex-col items-center transform hover:scale-105 hover:rotate-2 hover:shadow-xl'
             >
-              <skill.icon className='w-16 h-16 text-primary mb-2 select-none' />
+              <skill.icon className='w-16 h-16 mb-2 select-none ' />
               <h3 className='text-xl font-semibold mb-1 select-none'>{skill.name}</h3>
-              <p className='text-center select-none'>{skill.description}</p>
+              <p className='hidden md:block text-center select-none'>{skill.description}</p>
             </div>
           ))}
         </div>

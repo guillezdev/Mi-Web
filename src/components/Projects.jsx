@@ -3,11 +3,12 @@ import { FaGithub, FaGlobe } from "react-icons/fa";
 import proyect from "../assets/ProyectoGZD.jpg";
 import proyectLogin from "../assets/proyectLogin.jpg";
 import proyectNotas from "../assets/proyectNotas.png";
+import numeria from "../assets/Numeria.jpg";
 function ProjectCard(props) {
   const { title, description, imageSrc, githubLink, liveLink, tags } = props;
 
   return (
-    <div className='bg-white border border-gray-300 rounded-lg shadow-xl overflow-hidden'>
+    <div className='bg-white rounded-lg shadow-xl overflow-hidden'>
       <img src={imageSrc} alt={title} className='w-full h-64 object-cover' />
       <hr />
       <div className='p-4 h-full'>
@@ -78,6 +79,15 @@ function Projects() {
       liveLink: "https://comfy-meerkat-c6443d.netlify.app/",
       tags: ["React", "Material UI"],
     },
+    {
+      title: "Numeria",
+      description:
+        "Realiza calculos relacionados con la matemática numérica",
+      imageSrc: numeria,
+      githubLink: "https://github.com/guillezdev/Mis-Notas",
+      liveLink: "https://numeria.netlify.app/",
+      tags: ["React", "Tailwind"],
+    },
   ];
 
   return (
@@ -88,9 +98,7 @@ function Projects() {
             Proyectos
           </h2>
           <p className='mb-4 max-w-2xl mx-auto'>
-            Explora los proyectos en los que he trabajado y su implementación en
-            producción. También podrás conocer el Stack tecnológico con el que
-            fueron construidos. ¡Espero que lo disfrutes!
+            Explora los proyectos en los que he trabajado. ¡Espero que lo disfrutes!
           </p>
         </div>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4'>

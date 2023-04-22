@@ -34,7 +34,7 @@ export const skills = [
     },
     {
         id: 6,
-        name: "Redux/ReduxToolkit",
+        name: "Redux",
         description: "Librería para gestionar el estado global de una aplicación.",
         icon: SiRedux,
     },
