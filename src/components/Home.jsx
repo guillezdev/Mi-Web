@@ -3,7 +3,7 @@ import CardProfile from "./CardProfile";
 import imgfront from "../assets/Frontend.svg";
 function Home() {
   return (
-    <div className='relative max-w-7xl m-auto' id='home'>
+    <div className='relative max-w-7xl mx-auto' id='home'>
       <div className='flex flex-row'>
         <div className='flex-1 px-4 lg:text-left'>
           <h4 className='text-4xl font-bold mb-4'>{"¡Hey!"}</h4>
@@ -12,7 +12,7 @@ function Home() {
           </h1>
           <div className='loader'>
             <div className='scanner'>
-              <span>12312312312313123123123111123</span>
+              <span className="select-none">12312312312313123123123111123</span>
             </div>
           </div>
           <p className='text-lg text-justify mb-8'>

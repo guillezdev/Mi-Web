@@ -36,7 +36,7 @@ const Navbar = () => {
     <>
       <div className='h-24'></div>
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 bg-white  backdrop-filter bg-opacity-10 shadow-sm backdrop-blur-sm 
+        className={`fixed py-0 top-0 left-0 right-0 z-50 bg-white  backdrop-filter bg-opacity-10 shadow-sm backdrop-blur-sm 
       ${isScrolled ? "" : ""}`}
       >
         <div className='container mx-auto py-4 px-6 md:px-8'>
@@ -50,7 +50,7 @@ const Navbar = () => {
               cursor='pointer'
               className='text-xl font-bold text-gray-800 cursor-pointer select-none hover:scale-90'
             >
-              <img src={Favicon} className='h-14 m-0' alt='GZD' />
+              <img src={Favicon} className='h-10 m-0 p-0' alt='GZD' />
             </Link>
             <div className='hidden md:block'>
               <ul className='flex space-x-4'>

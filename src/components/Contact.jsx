@@ -11,7 +11,11 @@ function Contact() {
         <h2 className='text-3xl mb-4 font-bold text-gray-800'>Contáctame</h2>
         <div className='mb-4 max-w-2xl mx-auto'>
           <div class='social-links'>
-            <a id='whatsapp' href="https://wa.me/+5358902778" class='social-btn flex-center'>
+            <a
+              id='whatsapp'
+              href='https://wa.me/+5358902778'
+              class='social-btn flex-center'
+            >
               <FaWhatsapp size={50} />
               <span>Whatsapp</span>
             </a>
@@ -58,6 +62,7 @@ function Contact() {
                   Nombre
                 </label>
                 <input
+                  placeholder='Max/Adevinta'
                   type='text'
                   name='name'
                   className='w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:border-blue-500'
@@ -71,6 +76,7 @@ function Contact() {
                   Correo electrónico
                 </label>
                 <input
+                  placeholder='correo@gmail.com'
                   type='email'
                   name='email'
                   className='w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:border-blue-500'
@@ -84,6 +90,7 @@ function Contact() {
                   Mensaje
                 </label>
                 <textarea
+                  placeholder='Hola , nos gustaria contactar contigo.'
                   name='message'
                   rows='4'
                   className='w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:border-blue-500'

@@ -385,7 +385,7 @@
 }
 
 .scanner span::before {
-  content: "Desarrollador..Web..Frontend...";
+  content: "Desarrollador_Web_Frontend...";
   position: absolute;
   top: 0;
   left: 0;
