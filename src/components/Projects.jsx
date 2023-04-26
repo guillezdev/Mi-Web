@@ -2,7 +2,8 @@ import React from "react";
 import { FaGithub, FaGlobe } from "react-icons/fa";
 import proyect from "../assets/ProyectoGZD.jpg";
 import proyectLogin from "../assets/proyectLogin.jpg";
-import proyectNotas from "../assets/proyectNotas.png";
+import Danet from "../assets/Danet.jpg";
+
 import numeria from "../assets/Numeria.jpg";
 function ProjectCard(props) {
   const { title, description, imageSrc, githubLink, liveLink, tags } = props;
@@ -72,11 +73,18 @@ function Projects() {
     },
     {
       title: "Numeria",
-      description:
-        "Realiza calculos relacionados con la matemática numérica",
+      description: "Realiza calculos relacionados con la matemática numérica",
       imageSrc: numeria,
       githubLink: "https://github.com/wolfsoul01/Proyecto-Numeria-Web",
       liveLink: "https://numeria.netlify.app/",
+      tags: ["React", "Tailwind"],
+    },
+    {
+      title: "Danet",
+      description: "Salón de Belleza con diferentes servicios",
+      imageSrc: Danet,
+      githubLink: "https://github.com/guillezdev/Salon-de-Belleza-Danet",
+      liveLink: "https://danetdelatorre.netlify.app/",
       tags: ["React", "Tailwind"],
     },
   ];
@@ -89,7 +97,8 @@ function Projects() {
             Proyectos
           </h2>
           <p className='mb-4 max-w-2xl mx-auto'>
-            Explora los proyectos en los que he trabajado. ¡Espero que lo disfrutes!
+            Explora los proyectos en los que he trabajado. ¡Espero que lo
+            disfrutes!
           </p>
         </div>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4'>
