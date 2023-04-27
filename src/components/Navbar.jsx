@@ -48,7 +48,7 @@ const Navbar = () => {
               offset={-70}
               duration={500}
               cursor='pointer'
-              className='text-xl font-bold text-gray-800 cursor-pointer select-none hover:scale-90'
+              className='text-xl font-bold text-gray-900 cursor-pointer select-none hover:scale-90'
             >
               <img src={Favicon} className='h-10 m-0 p-0' alt='GZD' />
             </Link>
@@ -61,7 +61,7 @@ const Navbar = () => {
                     smooth={true}
                     offset={-70}
                     duration={500}
-                    className='text-gray-800 hover:text-gray-600 cursor-pointer select-none'
+                    className='text-gray-900 hover:shadow-xl py-1 px-2 rounded-md font-medium cursor-pointer select-none'
                   >
                     Inicio
                   </Link>
@@ -74,7 +74,7 @@ const Navbar = () => {
                     offset={-70}
                     duration={500}
                     cursor='pointer'
-                    className='text-gray-800 hover:text-gray-600 cursor-pointer select-none'
+                    className='text-gray-900 hover:shadow-xl py-1 px-2 rounded-md font-medium cursor-pointer select-none'
                   >
                     Proyectos
                   </Link>
@@ -87,7 +87,7 @@ const Navbar = () => {
                     offset={-70}
                     duration={500}
                     cursor='pointer'
-                    className='text-gray-800 hover:text-gray-600 cursor-pointer select-none'
+                    className='text-gray-900 hover:shadow-xl py-1 px-2 rounded-md font-medium cursor-pointer select-none'
                   >
                     Habilidades
                   </Link>
@@ -100,7 +100,7 @@ const Navbar = () => {
                     offset={-70}
                     duration={500}
                     cursor='pointer'
-                    className='text-gray-800 hover:text-gray-600 cursor-pointer select-none'
+                    className='text-gray-900 hover:shadow-xl py-1 px-2 rounded-md font-medium cursor-pointer select-none'
                   >
                     Contacto
                   </Link>
@@ -110,7 +110,7 @@ const Navbar = () => {
 
             <div className='md:hidden'>
               <button
-                className='flex items-center justify-center h-8 w-8 text-gray-800 hover:text-gray-600 focus:outline-none'
+                className='flex items-center justify-center h-8 w-8 text-gray-900 hover:shadow-xl py-1 px-2 rounded-md focus:outline-none'
                 onClick={() => setIsOpen(!isOpen)}
               >
                 {isOpen ? (
@@ -160,8 +160,8 @@ const Navbar = () => {
             leaveTo='opacity-0 scale-95'
           >
             {
-              <div className='md:hidden mt-4'>
-                <ul className='flex flex-col space-y-2'>
+              <div className=' md:hidden mt-4'>
+                <ul className='flex flex-col items-center space-y-2'>
                   <li>
                     <Link
                       to='home'
@@ -169,7 +169,8 @@ const Navbar = () => {
                       smooth={true}
                       offset={-70}
                       duration={500}
-                      className='text-gray-800 hover:text-gray-600 cursor-pointer select-none'
+                      className='text-gray-900 hover:shadow-xl py-1 px-2 rounded-md font-medium cursor-pointer select-none'
+                      onClick={() => setIsOpen(!isOpen)}
                     >
                       Inicio
                     </Link>
@@ -182,7 +183,8 @@ const Navbar = () => {
                       offset={-70}
                       duration={500}
                       cursor='pointer'
-                      className='text-gray-800 hover:text-gray-600 cursor-pointer select-none'
+                      className='text-gray-900 hover:shadow-xl py-1 px-2 rounded-md font-medium cursor-pointer select-none'
+                      onClick={() => setIsOpen(!isOpen)}
                     >
                       Proyectos
                     </Link>
@@ -195,7 +197,8 @@ const Navbar = () => {
                       offset={-70}
                       duration={500}
                       cursor='pointer'
-                      className='text-gray-800 hover:text-gray-600 cursor-pointer select-none'
+                      className='text-gray-900 hover:shadow-xl py-1 px-2 rounded-md font-medium cursor-pointer select-none'
+                      onClick={() => setIsOpen(!isOpen)}
                     >
                       Habilidades
                     </Link>
@@ -208,7 +211,8 @@ const Navbar = () => {
                       offset={-70}
                       duration={500}
                       cursor='pointer'
-                      className='text-gray-800 hover:text-gray-600 cursor-pointer select-none'
+                      className='text-gray-900 hover:shadow-xl py-1 px-2 rounded-md font-medium cursor-pointer select-none'
+                      onClick={() => setIsOpen(!isOpen)}
                     >
                       Contacto
                     </Link>
