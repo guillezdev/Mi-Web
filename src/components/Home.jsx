@@ -17,7 +17,7 @@ function Home() {
           </div>
           <p className='text-lg text-justify mb-8'>
             Como desarrollador web, disfruto cada etapa de mi carrera. Me
-            apasion encontrar formas de simplificar lo que parece difícil. Me
+            apasiona encontrar formas de simplificar lo que parece difícil. Me
             esfuerzo por completar cada proyecto que emprendo, con la calidad y
             atención que se merece. La constancia es una de mis principales
             virtudes y siempre estoy buscando nuevos retos para superarme a mí

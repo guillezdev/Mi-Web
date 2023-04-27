@@ -77,7 +77,7 @@ function Projects() {
       imageSrc: numeria,
       githubLink: "https://github.com/wolfsoul01/Proyecto-Numeria-Web",
       liveLink: "https://numeria.netlify.app/",
-      tags: ["React", "Tailwind"],
+      tags: ["React", "Tailwind","ContextAPI"],
     },
     {
       title: "Danet",

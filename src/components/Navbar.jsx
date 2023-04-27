@@ -34,7 +34,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className='h-24'></div>
+      <div className='h-24 w-full'></div>
       <nav
         className={`fixed py-0 top-0 left-0 right-0 z-50 bg-white  backdrop-filter bg-opacity-10 shadow-sm backdrop-blur-sm 
       ${isScrolled ? "" : ""}`}
@@ -159,8 +159,8 @@ const Navbar = () => {
             leaveFrom='opacity-100 scale-100'
             leaveTo='opacity-0 scale-95'
           >
-            {(ref) => (
-              <div className='md:hidden mt-4' ref={ref}>
+            {
+              <div className='md:hidden mt-4'>
                 <ul className='flex flex-col space-y-2'>
                   <li>
                     <Link
@@ -215,7 +215,7 @@ const Navbar = () => {
                   </li>
                 </ul>
               </div>
-            )}
+            }
           </Transition>
         </div>
       </nav>
