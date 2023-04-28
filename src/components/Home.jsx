@@ -1,6 +1,6 @@
 import React from "react";
 import imgfront from "../assets/Frontend.svg";
-import {FaPhoneAlt} from 'react-icons/fa'
+import { FaPhoneAlt } from "react-icons/fa";
 function Home() {
   return (
     <header className='max-w-7xl mx-auto' id='home'>
@@ -19,7 +19,10 @@ function Home() {
             mi principal virtud. Si tienes un Proyecto en mente no dudes en
             contactar conmigo para hacerlo realidad!
           </p>
-          <button className='flex items-center gap-2 btn-home'><FaPhoneAlt />Contactar</button>
+          <button className='flex items-center gap-2 btn-home'>
+            <FaPhoneAlt />
+            Contactar
+          </button>
         </div>
         <div className='w-full hidden md:block flex-1'>
           <img src={imgfront} alt='img' />
