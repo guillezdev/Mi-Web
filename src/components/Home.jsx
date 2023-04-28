@@ -7,7 +7,8 @@ function Home() {
     <header className='max-w-7xl mx-auto mb-10' id='home'>
       <div className='flex flex-row justify-center items-center'>
         <div className='flex-1 px-4 lg:text-left'>
-          <h1 className='text-4xl font-bold mb-4'>{"Guillermo Gonzalez"}</h1>
+          <h4 className='text-2xl font-bold mb-4'>¡Hey!</h4>
+          <h1 className='text-4xl font-bold mb-4'>{"Soy Guillermo Gonzalez"}</h1>
           <div className='loader'>
             <div className='scanner'>
               <span className='select-none'>Desarrollador_Frontend....</span>
