@@ -1,14 +1,11 @@
 import React from "react";
 import {
-  FaHtml5,
   FaCss3Alt,
   FaReact,
-  FaJsSquare,
-  FaGitAlt,
   FaGithub,
   FaExternalLinkAlt,
 } from "react-icons/fa";
-import { SiRedux, SiTailwindcss } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
 import proyect from "../assets/ProyectoGZD.jpg";
 import proyectLogin from "../assets/proyectLogin.jpg";
 import Danet from "../assets/Danet.jpg";
@@ -42,8 +39,8 @@ function ProjectCard(props) {
             ))}
           </div>
           <div className='flex gap-4 shadow-xl p-3 rounded-md top-24'>
-            <a href={githubLink} className='cursor-pointer' ><FaGithub className='cursor-pointer' size={30} />Code</a>
-            <a href={liveLink} className='cursor-pointer'><FaExternalLinkAlt  size={30} />Ver</a>
+            <a href={githubLink} className='cursor-pointer hover:text-gray-600' ><FaGithub className='cursor-pointer' size={30} />Code</a>
+            <a href={liveLink} className='cursor-pointer hover:text-gray-600'><FaExternalLinkAlt  size={30} />Ver</a>
           </div>
         </div>
       </div>
