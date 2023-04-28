@@ -16,7 +16,8 @@ function Home() {
             Como desarrollador web me apasiona encontrar formas de simplificar
             lo que parece difícil. Me esfuerzo por completar cada proyecto que
             emprendo, con la calidad y atención que se merece. La constancia es
-            una de mis principal virtud. Si tienes un Proyecto en mente no dudes en contactar conmigo para hacerlo realidad!
+            mi principal virtud. Si tienes un Proyecto en mente no dudes en
+            contactar conmigo para hacerlo realidad!
           </p>
         </div>
         <div className='w-full hidden md:block flex-1'>

@@ -18,11 +18,11 @@ function ProjectCard(props) {
   const { title, description, imageSrc, githubLink, liveLink, tags } = props;
 
   return (
-    <div className=' bg-white rounded-lg shadow-xl overflow-hidden'>
+    <div className='bg-white rounded-lg shadow-xl overflow-hidden'>
       <img
         src={imageSrc}
         alt={title}
-        className='w-full h-64 shadow-lg '
+        className='w-full h-64 object-cover'
       />
       <hr />
       <div className='p-4 h-full'>
@@ -30,7 +30,7 @@ function ProjectCard(props) {
           {title}
         </h2>
         <p className='text-gray-500 mb-4 select-none'>{description}</p>
-        <div className='flex justify-between items-center'>
+        <div className='flex justify-between  items-center'>
           <div className='flex flex-wrap select-none'>
             {tags.map((Tag) => (
               <span
@@ -41,9 +41,9 @@ function ProjectCard(props) {
               </span>
             ))}
           </div>
-          <div className='flex gap-4 shadow-xl p-3 rounded-md'>
-            <FaGithub className='cursor-pointer' size={30} />Repo
-            <FaExternalLinkAlt className='cursor-pointer' size={30} />
+          <div className='flex gap-4 shadow-xl p-3 rounded-md top-24'>
+            <a href={githubLink} className='cursor-pointer' ><FaGithub className='cursor-pointer' size={30} />Code</a>
+            <a href={liveLink} className='cursor-pointer'><FaExternalLinkAlt  size={30} />Ver</a>
           </div>
         </div>
       </div>
@@ -60,7 +60,7 @@ function Projects() {
       imageSrc: proyect,
       githubLink: "https://github.com/guillezdev/Mi-Web",
       liveLink: "https://guillezdev.netlify.app/",
-      tags: [FaReact, SiTailwindcss, FaCss3Alt],
+      tags: [FaReact, SiTailwindcss],
     },
     {
       title: "Login UI",
@@ -68,7 +68,7 @@ function Projects() {
       imageSrc: proyectLogin,
       githubLink: "https://github.com/guillezdev/UI-Login",
       liveLink: "https://e-commers-login.netlify.app/",
-      tags: [FaReact],
+      tags: [FaReact, FaCss3Alt],
     },
     {
       title: "Numeria",
@@ -100,7 +100,7 @@ function Projects() {
             disfrutes!
           </p>
         </div>
-        <div className='grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+        <div className='grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3  gap-4'>
           {projects.map((project) => (
             <ProjectCard key={project.title} {...project} />
           ))}
