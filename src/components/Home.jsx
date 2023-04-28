@@ -1,9 +1,10 @@
 import React from "react";
 import imgfront from "../assets/Frontend.svg";
 import { FaPhoneAlt } from "react-icons/fa";
+import { Link } from "react-scroll";
 function Home() {
   return (
-    <header className='max-w-7xl mx-auto' id='home'>
+    <header className='max-w-7xl mx-auto mb-10' id='home'>
       <div className='flex flex-row justify-center items-center'>
         <div className='flex-1 px-4 lg:text-left'>
           <h1 className='text-4xl font-bold mb-4'>{"Guillermo Gonzalez"}</h1>
@@ -19,10 +20,17 @@ function Home() {
             mi principal virtud. Si tienes un Proyecto en mente no dudes en
             contactar conmigo para hacerlo realidad!
           </p>
-          <button className='flex items-center gap-2 btn-home'>
+          <Link
+            to='contact'
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            className='flex items-center w-40 gap-2 btn-home cursor-pointer'
+          >
             <FaPhoneAlt />
             Contactar
-          </button>
+          </Link>
         </div>
         <div className='w-full hidden md:block flex-1'>
           <img src={imgfront} alt='img' />
