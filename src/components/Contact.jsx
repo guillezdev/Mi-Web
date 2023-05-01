@@ -98,7 +98,7 @@ function Contact() {
               </div>
               <button
                 type='submit'
-                className='animate-bounce hover:scale-90 bg-black text-gray-50 font-medium py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue'
+                className='hover:scale-90 bg-black text-gray-50 font-medium py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue'
               >
                 Enviar
               </button>
