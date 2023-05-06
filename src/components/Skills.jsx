@@ -15,7 +15,7 @@ const Skills = () => {
               key={skill.id}
               className='md:w-full rounded-lg shadow-md p-5 bg-white flex flex-col items-center transform hover:scale-105 hover:rotate-2 hover:shadow-xl'
             >
-              <skill.icon className='w-16 h-16 mb-2 select-none ' />
+              <skill.icon size="50" className='mb-2 select-none ' />
               <h3 className='text-xl font-semibold mb-1 select-none'>{skill.name}</h3>
               <p className='hidden md:block text-center select-none'>{skill.description}</p>
             </div>

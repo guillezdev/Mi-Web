@@ -47,10 +47,10 @@ function Contact() {
           </div>
           <div className='w-full lg:w-1/2 lg:pt-0 px-4  text-center lg:text-left'>
             <div className=' p-4 rounded-lg'>
-              <div className='flex items-center justify-center'>
+              <a href="https://mail.google.com/mail/?view=cm&to=guillezdev@gmail.com" className='flex items-center justify-center'>
                 <MdEmail size={50} />
                 <p className='ml-2 text-lg'>guillezdev@gmail.com</p>
-              </div>
+              </a>
             </div>
             <form name='contact' method='post' className='mb-4'>
               <input type='hidden' name='form-name' value='contact' />
