@@ -37,7 +37,7 @@ function Home() {
             </Link>
             <a
               download
-              href="../cv/guilledev-cv.pdf"
+              href="../../public/cv/guilledev-cv.pdf"
               className="flex items-center w-40 gap-2 btn-home cursor-pointer"
             >
               <FaDownload />
