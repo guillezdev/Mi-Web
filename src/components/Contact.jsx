@@ -69,6 +69,7 @@ function Contact() {
                   Nombre
                 </label>
                 <input
+                  required
                   placeholder="Max/Adevinta"
                   type="text"
                   name="name"
@@ -83,6 +84,7 @@ function Contact() {
                   Correo electrónico
                 </label>
                 <input
+                  required
                   placeholder="correo@gmail.com"
                   type="email"
                   name="email"
@@ -97,6 +99,7 @@ function Contact() {
                   Mensaje
                 </label>
                 <textarea
+                  required
                   placeholder="Hola , nos gustaria contactar contigo."
                   name="message"
                   rows="4"
