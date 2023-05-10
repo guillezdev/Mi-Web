@@ -2,7 +2,7 @@ import React from "react";
 import imgfront from "../assets/Frontend.svg";
 import { FaPhoneAlt, FaDownload } from "react-icons/fa";
 import { Link } from "react-scroll";
-import pdfFile from "../../public/cv/guilledev-cv.pdf";
+import pdfFile from "../../public/cv/guillezdev-cv.pdf";
 function Home() {
   return (
     <header className="max-w-7xl mx-auto mb-10" id="home">
@@ -37,7 +37,7 @@ function Home() {
               Contactar
             </Link>
             <a
-             href={pdfFile} download="guilledev-cv.pdf"
+             href={pdfFile} download="guillezdev-cv.pdf"
               className="flex items-center w-40 gap-2 btn-home cursor-pointer"
             >
               <FaDownload />
