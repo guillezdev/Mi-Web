@@ -18,11 +18,11 @@ function Home() {
             </div>
           </div>
           <p className="text-lg text-justify mb-8">
-            Como desarrollador web me apasiona encontrar formas de simplificar
-            lo que parece difícil. Me esfuerzo por completar cada proyecto que
-            emprendo, con la calidad y atención que se merece. La constancia es
-            mi principal virtud. Si tienes un Proyecto en mente no dudes en
-            contactar conmigo para hacerlo realidad!
+            Tengo experiencia en el desarrollo de aplicaciones web con React y
+            Next.js, así como habilidades en la integración con servicios web y
+            APIs. Me enfoco en crear aplicaciones web con interfaces de usuario
+            atractivas y accesibles. Me gusta el minimalismo y encontrar nuevas
+            formas de simplificarlo que parece difícil.
           </p>
           <div className="flex gap-7">
             <Link
@@ -37,11 +37,12 @@ function Home() {
               Contactar
             </Link>
             <a
-             href={pdfFile} download="guillezdev-cv.pdf"
+              href={pdfFile}
+              download="guillezdev-cv.pdf"
               className="flex items-center w-40 gap-2 btn-home cursor-pointer"
             >
               <FaDownload />
-             CV.pdf
+              CV.pdf
             </a>
           </div>
         </div>
