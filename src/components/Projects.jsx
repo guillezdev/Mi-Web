@@ -1,14 +1,13 @@
 import React from "react";
 import {
-  FaCss3Alt,
   FaReact,
   FaGithub,
   FaExternalLinkAlt,
 } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
-import proyect from "../assets/ProyectoGZD.jpg";
-import proyectLogin from "../assets/proyectLogin.jpg";
 import Danet from "../assets/Danet.jpg";
+import LogoYadel from '../assets/LogoYadel.jpg'
+import { Nextjs } from "../data/Nextjs";
 
 import numeria from "../assets/Numeria.jpg";
 function ProjectCard(props) {
@@ -51,23 +50,6 @@ function ProjectCard(props) {
 function Projects() {
   const projects = [
     {
-      title: "Mi Web GZD",
-      description:
-        "Portafolio personal con ejemplos de trabajos y experiencia en diseño y desarrollo web.",
-      imageSrc: proyect,
-      githubLink: "https://github.com/guillezdev/Mi-Web",
-      liveLink: "https://guillezdev.netlify.app/",
-      tags: [FaReact, SiTailwindcss],
-    },
-    {
-      title: "Login UI",
-      description: "Estos son fragmentos del Login para una tienda online",
-      imageSrc: proyectLogin,
-      githubLink: "https://github.com/guillezdev/UI-Login",
-      liveLink: "https://e-commers-login.netlify.app/",
-      tags: [FaReact, FaCss3Alt],
-    },
-    {
       title: "Numeria",
       description: "Realiza calculos relacionados con la matemática numérica",
       imageSrc: numeria,
@@ -82,6 +64,14 @@ function Projects() {
       githubLink: "https://github.com/guillezdev/Salon-de-Belleza-Danet",
       liveLink: "https://danetdelatorre.netlify.app/",
       tags: [FaReact, SiTailwindcss],
+    },
+    {
+      title: "L&RAlteration",
+      description: "Servicios de costura y alteraciones",
+      imageSrc: LogoYadel,
+      githubLink: "https://github.com/guillezdev/Costura-Alteraciones",
+      liveLink: "https://alteration.netlify.app/",
+      tags: [Nextjs, SiTailwindcss],
     },
   ];
 

@@ -1,6 +1,6 @@
 import React from "react";
 import imgcont from "../assets/Contact.svg";
-import { FaWhatsapp, FaDiscord, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaDiscord, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 import CardProfile from "./CardProfile";
@@ -14,11 +14,11 @@ function Contact() {
             <a
               target="_blank"
               id="whatsapp"
-              href="https://wa.me/+5358902778"
+              href="https://www.linkedin.com/in/guillezdev/"
               className="social-btn flex-center"
             >
-              <FaWhatsapp size={50} />
-              <span>Whatsapp</span>
+              <FaLinkedin size={50} />
+              <span>Linkedin</span>
             </a>
 
             <a
