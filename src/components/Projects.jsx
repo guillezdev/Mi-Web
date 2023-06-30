@@ -39,7 +39,7 @@ function ProjectCard(props) {
           </div>
           <div className='flex gap-4 shadow-xl p-3 rounded-md top-24'>
             <a href={githubLink} className='cursor-pointer hover:text-gray-600' ><FaGithub className='cursor-pointer' size={30} />Code</a>
-            <a href={liveLink} className='cursor-pointer hover:text-gray-600'><FaExternalLinkAlt  size={30} />Ver</a>
+            <a href={liveLink} target="_blanck" className='cursor-pointer hover:text-gray-600'><FaExternalLinkAlt  size={30} />Ver</a>
           </div>
         </div>
       </div>

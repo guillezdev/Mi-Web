@@ -49,11 +49,11 @@ function Contact() {
             <CardProfile img={imgcont} />
           </div>
           <div className="w-full lg:w-1/2 lg:pt-0 px-4  text-center lg:text-left">
-            <div className=" p-4 rounded-lg">
+            <div className="p-4 rounded-lg">
               <a
                 target="_blank"
                 href="https://mail.google.com/mail/?view=cm&to=guillezdev@gmail.com"
-                className="flex items-center justify-center"
+                className="flex w-fit items-center gap-2 btn-home cursor-pointer mx-auto"
               >
                 <MdEmail size={50} />
                 <p className="ml-2 text-lg">guillezdev@gmail.com</p>
@@ -108,7 +108,7 @@ function Contact() {
               </div>
               <button
                 type="submit"
-                className="hover:scale-90 bg-black text-gray-50 font-medium py-2 px-4 rounded-md focus:outline-none focus:shadow-outline-blue"
+                className="flex items-center gap-2 btn-home cursor-pointer"
               >
                 Enviar
               </button>
