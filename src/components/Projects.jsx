@@ -62,7 +62,7 @@ function Projects() {
       description: "Salón de Belleza con diferentes servicios",
       imageSrc: Danet,
       githubLink: "https://github.com/guillezdev/Salon-de-Belleza-Danet",
-      liveLink: "https://danetdelatorre.netlify.app/",
+      liveLink: "https://danetdelatorre.vercel.app/",
       tags: [FaReact, SiTailwindcss],
     },
     {
