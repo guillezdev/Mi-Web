@@ -50,7 +50,7 @@ const Navbar = () => {
               cursor='pointer'
               className='text-xl font-bold text-gray-900 cursor-pointer select-none hover:scale-90'
             >
-              <img src={Favicon} className='h-14 m-0 p-0' alt='GZD' />
+              <img src={Favicon} className='h-10 m-0 p-0' alt='GZD' />
             </Link>
             <div className='hidden md:block'>
               <ul className='flex space-x-4'>
