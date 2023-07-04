@@ -52,7 +52,7 @@ function Contact() {
             <div className="p-4 rounded-lg">
               <a
                 target="_blank"
-                href="https://mail.google.com/mail/?view=cm&to=guillezdev@gmail.com"
+                href="mailto:guillezdev@gmail.com"
                 className="flex w-fit items-center gap-2 btn-home cursor-pointer mx-auto"
               >
                 <MdEmail size={50} />
