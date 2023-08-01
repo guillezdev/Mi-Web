@@ -20,12 +20,11 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="h-24 w-full"></div>
       <nav
-        className={`fixed py-0 top-0 left-0 right-0 z-50 bg-white  backdrop-filter bg-opacity-10 shadow-sm backdrop-blur-sm`}
+        className={`sticky py-0 top-0 inset-x-0 z-50 bg-white  backdrop-filter bg-opacity-10 shadow-sm backdrop-blur-sm`}
       >
-        <div className="container mx-auto py-4 px-6 md:px-8">
-          <div className="flex justify-between items-center">
+        <div className="max-w-7xl mx-auto py-4 px-4">
+          <div className="flex justify-between items-center ">
             <Link
               to="home"
               spy={true}

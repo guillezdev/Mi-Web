@@ -18,7 +18,7 @@ function ProjectCard(props) {
       <img
         src={imageSrc}
         alt={title}
-        className='w-full h-64 object-cover'
+        className='w-full h-auto '
       />
       <hr />
       <div className='p-4 h-full'>
@@ -26,7 +26,7 @@ function ProjectCard(props) {
           {title}
         </h2>
         <p className='text-gray-500 mb-4 select-none'>{description}</p>
-        <div className='flex justify-between  items-center'>
+        <div className='flex justify-between items-end'>
           <div className='flex flex-wrap select-none'>
             {tags.map((Tag) => (
               <span
