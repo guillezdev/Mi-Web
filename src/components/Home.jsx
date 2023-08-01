@@ -6,15 +6,15 @@ import pdfFile from "../../public/cv/guillezdev-cv.pdf";
 function Home() {
   return (
     <header className="max-w-7xl mx-auto mb-10" id="home">
-      <div className="flex flex-row justify-center items-center">
-        <div className="flex-1 px-4 lg:text-left">
+      <div className="flex flex-col-reverse md:flex-row justify-center items-center">
+        <div className="flex-1 px-4 lg:text-left w-full md:w-1/2">
           <h4 className="text-2xl font-bold mb-4">¡Hey!</h4>
           <h1 className="text-4xl font-bold mb-4">
             {"Soy Guillermo Gonzalez"}
           </h1>
           <div className="loader">
             <div className="scanner">
-              <span className="select-none">Desarrollador_Frontend....</span>
+              <span className="select-none">Desarrollador_Frontend...|</span>
             </div>
           </div>
           <p className="text-lg text-justify mb-8">
@@ -46,9 +46,7 @@ function Home() {
             </a>
           </div>
         </div>
-        <div className="w-full hidden md:block flex-1">
-          <img src={imgfront} alt="img" />
-        </div>
+        <img className="w-1/2 md:flex-1" src={imgfront} alt="img" />
       </div>
     </header>
   );

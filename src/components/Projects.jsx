@@ -14,19 +14,19 @@ function ProjectCard(props) {
   const { title, description, imageSrc, githubLink, liveLink, tags } = props;
 
   return (
-    <div className='bg-white rounded-lg shadow-xl overflow-hidden'>
+    <div className='bg-white rounded-lg shadow-xl overflow-hidden h-full flex flex-col'>
       <img
         src={imageSrc}
         alt={title}
         className='w-full h-auto '
       />
       <hr />
-      <div className='p-4 h-full'>
+      <div className='p-4 h-full flex flex-col'>
         <h2 className='text-lg font-bold text-gray-800 mb-2 select-none'>
           {title}
         </h2>
         <p className='text-gray-500 mb-4 select-none'>{description}</p>
-        <div className='flex justify-between items-end'>
+        <div className='flex justify-between items-end flex-grow'>
           <div className='flex flex-wrap select-none'>
             {tags.map((Tag) => (
               <span
@@ -37,9 +37,9 @@ function ProjectCard(props) {
               </span>
             ))}
           </div>
-          <div className='flex gap-4 shadow-xl p-3 rounded-md top-24'>
+          <div className='flex gap-4 shadow-xl p-3 rounded-md'>
             <a href={githubLink} className='cursor-pointer hover:text-gray-600' ><FaGithub className='cursor-pointer' size={30} />Code</a>
-            <a href={liveLink} target="_blanck" className='cursor-pointer hover:text-gray-600'><FaExternalLinkAlt  size={30} />Ver</a>
+            <a href={liveLink} target="_blanck" className='cursor-pointer hover:text-gray-600'><FaExternalLinkAlt size={30} />Ver</a>
           </div>
         </div>
       </div>
