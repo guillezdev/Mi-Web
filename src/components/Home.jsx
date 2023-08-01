@@ -8,19 +8,19 @@ function Home() {
     <header className="max-w-7xl mx-auto mb-10" id="home">
       <div className="flex flex-col-reverse md:flex-row justify-center items-center">
         <div className="flex-1 px-4 lg:text-left w-full md:w-1/2">
-          <h4 className="text-2xl font-bold mb-4">¡Hey!</h4>
-          <h1 className="text-4xl font-bold mb-4">
-            {"Soy Guillermo Gonzalez"}
+          <h4 className="text-2xl font-bold mb-2">¡Hey!</h4>
+          <h1 className="text-4xl font-bold mb-1">
+           Soy Guillermo Gonzalez
           </h1>
-          <div className="loader">
+          <div className="loader mb-4">
             <div className="scanner">
-              <span className="select-none">Desarrollador_Frontend...|</span>
+              <span className="select-none italic">Desarrollador_Frontend....</span>
             </div>
           </div>
           <p className="text-lg text-justify mb-8">
-            Tengo experiencia en el desarrollo de aplicaciones web con React y
-            Next.js, así como habilidades en la integración con servicios web y
-            APIs. Me enfoco en crear aplicaciones web con interfaces de usuario
+            Tengo experiencia en el <span className="bg-[#798bf2]/50 rounded-tr-md rounded-bl-md  px-2">desarrollo de aplicaciones web</span> con <span className="font-semibold">React y
+            Next.js</span>, así como habilidades en la integración con <span className="font-semibold">servicios web</span> y
+            <span className="font-semibold"> APIs</span>. Me enfoco en crear interfaces de usuario
             atractivas y accesibles. Me gusta el minimalismo y encontrar nuevas
             formas de simplificarlo que parece difícil.
           </p>
