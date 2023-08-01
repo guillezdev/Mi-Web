@@ -18,7 +18,7 @@ function Home() {
             </div>
           </div>
           <p className="text-lg text-justify mb-8">
-            Tengo experiencia en el <span className="bg-[#798bf2]/50 rounded-tr-md rounded-bl-md  px-2">desarrollo de aplicaciones web</span> con <span className="font-semibold">React y
+            Tengo experiencia en el <span className="font-semibold">desarrollo de aplicaciones web</span> con <span className="font-semibold">React y
             Next.js</span>, así como habilidades en la integración con <span className="font-semibold">servicios web</span> y
             <span className="font-semibold"> APIs</span>. Me enfoco en crear interfaces de usuario
             atractivas y accesibles. Me gusta el minimalismo y encontrar nuevas
