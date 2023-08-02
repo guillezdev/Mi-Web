@@ -31,7 +31,7 @@ function Home() {
               smooth={true}
               offset={-70}
               duration={500}
-              className="flex items-center w-40 gap-2 btn-home cursor-pointer"
+              className="flex items-center font-semibold w-30 gap-2 bg-primary hover:shadow-lg hover:shadow-primary hover:bg-primary hover:-translate-y-1 hover:rotate-1 rounded-md py-2 px-4 cursor-pointer"
             >
               <FaPhoneAlt />
               Contactar
@@ -39,14 +39,14 @@ function Home() {
             <a
               href={pdfFile}
               download="guillezdev-cv.pdf"
-              className="flex items-center w-40 gap-2 btn-home cursor-pointer"
+              className="flex items-center font-semibold w-32 gap-2 bg-white border-[2px] hover:shadow-lg hover:-translate-y-1 hover:rotate-1 hover:shadow-primary border-primary rounded-md py-2 px-4 cursor-pointer"
             >
               <FaDownload />
               CV.pdf
             </a>
           </div>
         </div>
-        <img className="w-1/2 md:flex-1" src={imgfront} alt="img" />
+        <img className="w-1/2 md:flex-1 hidden md:block" src={imgfront} alt="img" />
       </div>
     </header>
   );

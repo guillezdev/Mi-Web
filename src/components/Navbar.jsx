@@ -45,7 +45,7 @@ const Navbar = () => {
                     smooth={true}
                     offset={-70}
                     duration={500}
-                    className="text-gray-900 hover:shadow-xl hover:bg-[#798bf2]/50 font-semibold py-1 px-2 rounded-md cursor-pointer select-none"
+                    className="text-gray-900 hover:shadow-xl hover:bg-primary/70 font-semibold py-1 px-2 rounded-md cursor-pointer select-none"
                   >
                     Inicio
                   </Link>
@@ -58,7 +58,7 @@ const Navbar = () => {
                     offset={-70}
                     duration={500}
                     cursor="pointer"
-                    className="text-gray-900 hover:shadow-xl hover:bg-[#798bf2]/50 font-semibold py-1 px-2 rounded-md cursor-pointer select-none"
+                    className="text-gray-900 hover:shadow-xl hover:bg-primary/70 font-semibold py-1 px-2 rounded-md cursor-pointer select-none"
                   >
                     Proyectos
                   </Link>
@@ -71,7 +71,7 @@ const Navbar = () => {
                     offset={-70}
                     duration={500}
                     cursor="pointer"
-                    className="text-gray-900 hover:shadow-xl hover:bg-[#798bf2]/50 font-semibold py-1 px-2 rounded-md cursor-pointer select-none"
+                    className="text-gray-900 hover:shadow-xl hover:bg-primary/70 font-semibold py-1 px-2 rounded-md cursor-pointer select-none"
                   >
                     Habilidades
                   </Link>
@@ -84,7 +84,7 @@ const Navbar = () => {
                     offset={-70}
                     duration={500}
                     cursor="pointer"
-                    className="text-gray-900 hover:shadow-xl hover:bg-[#798bf2]/50 font-semibold py-1 px-2 rounded-md cursor-pointer select-none"
+                    className="text-gray-900 hover:shadow-xl hover:bg-primary/70 font-semibold py-1 px-2 rounded-md cursor-pointer select-none"
                   >
                     Contacto
                   </Link>
@@ -153,7 +153,7 @@ const Navbar = () => {
                       smooth={true}
                       offset={-70}
                       duration={500}
-                      className="text-gray-900 hover:shadow-xl hover:bg-[#798bf2]/50 font-semibold py-1 px-2 rounded-md cursor-pointer select-none"
+                      className="text-gray-900 hover:shadow-xl hover:bg-primary/70 font-semibold py-1 px-2 rounded-md cursor-pointer select-none"
                       onClick={() => setIsOpen(!isOpen)}
                     >
                       Inicio
@@ -167,7 +167,7 @@ const Navbar = () => {
                       offset={-70}
                       duration={500}
                       cursor="pointer"
-                      className="text-gray-900 hover:shadow-xl hover:bg-[#798bf2]/50 font-semibold py-1 px-2 rounded-md cursor-pointer select-none"
+                      className="text-gray-900 hover:shadow-xl hover:bg-primary/70 font-semibold py-1 px-2 rounded-md cursor-pointer select-none"
                       onClick={() => setIsOpen(!isOpen)}
                     >
                       Proyectos
@@ -181,7 +181,7 @@ const Navbar = () => {
                       offset={-70}
                       duration={500}
                       cursor="pointer"
-                      className="text-gray-900 hover:shadow-xl hover:bg-[#798bf2]/50 font-semibold py-1 px-2 rounded-md cursor-pointer select-none"
+                      className="text-gray-900 hover:shadow-xl hover:bg-primary/70 font-semibold py-1 px-2 rounded-md cursor-pointer select-none"
                       onClick={() => setIsOpen(!isOpen)}
                     >
                       Habilidades
@@ -195,7 +195,7 @@ const Navbar = () => {
                       offset={-70}
                       duration={500}
                       cursor="pointer"
-                      className="text-gray-900 hover:shadow-xl hover:bg-[#798bf2]/50 font-semibold py-1 px-2 rounded-md cursor-pointer select-none"
+                      className="text-gray-900 hover:shadow-xl hover:bg-primary/70 font-semibold py-1 px-2 rounded-md cursor-pointer select-none"
                       onClick={() => setIsOpen(!isOpen)}
                     >
                       Contacto
