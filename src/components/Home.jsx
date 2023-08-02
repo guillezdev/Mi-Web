@@ -5,16 +5,16 @@ import { Link } from "react-scroll";
 import pdfFile from "../../public/cv/guillezdev-cv.pdf";
 function Home() {
   return (
-    <header className="max-w-7xl mx-auto mb-10" id="home">
-      <div className="flex flex-col-reverse md:flex-row justify-center items-center">
+    <header className="max-w-7xl mx-auto mb-10 text-black" id="home">
+      <div className="flex flex-col md:flex-row justify-center items-center">
         <div className="flex-1 px-4 lg:text-left w-full md:w-1/2">
           <h4 className="text-2xl font-bold mb-2">¡Hey!</h4>
-          <h1 className="text-4xl font-bold mb-1">
-           Soy Guillermo Gonzalez
+          <h1 className="text-4xl font-bold pb-1">
+           Soy <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-900 via-indigo-400 to-indigo-900">Guillermo Gonzalez</span>
           </h1>
           <div className="loader mb-4">
             <div className="scanner">
-              <span className="select-none italic">Desarrollador_Frontend....</span>
+              <span className="select-none italic rounded-lg px-[130px]"></span>
             </div>
           </div>
           <p className="text-lg text-justify mb-8">

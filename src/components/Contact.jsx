@@ -49,14 +49,14 @@ function Contact() {
             <CardProfile img={imgcont} />
           </div>
           <div className="w-full lg:w-1/2 lg:pt-0 px-4  text-center lg:text-left">
-            <div className="p-4 rounded-lg">
+            <div className="mb-4 rounded-lg w-full">
               <a
                 target="_blank"
                 href="mailto:guillezdev@gmail.com"
                 className="flex w-fit items-center gap-2 btn-home cursor-pointer mx-auto"
               >
                 <MdEmail size={50} />
-                <p className="ml-2 text-lg">guillezdev@gmail.com</p>
+                <p className=" text-lg">guillezdev@gmail.com</p>
               </a>
             </div>
             <form name="contact" method="post" className="mb-4">
