@@ -13,7 +13,6 @@ const App = () => {
       <Navbar />
       <Home />
       <Projects />
-     
       <Skills />
       <Contact />
       <Footer />
