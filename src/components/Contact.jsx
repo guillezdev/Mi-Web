@@ -9,7 +9,7 @@ function Contact() {
     <div className="text-secundary bg-black/50" id="contact">
       <div className=" max-w-7xl mx-auto py-16">
 
-        <div className='flex flex-col'>
+        <div className='flex flex-col px-4'>
           <h2 className='text-7xl md:text-9xl font-bold bg-clip-text text-transparent bg-primary/10 pb-5 mb-4 select-none '>
             Contactar
           </h2>
