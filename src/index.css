@@ -2,47 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap');
+
+
 * {
   transition: all 0.1s;
   padding: 0;
   margin: 0;
-}
-/*Link Redes Sociales*/
-.social-links,.flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.social-btn {
-  cursor: pointer;
-  height: 100px;
-  width: 100px;
-  color: #333;
-  border-radius: 10px;
-  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
-  background: white;
-  margin: 5px;
-  transition: 0.3s;
-  justify-content: center;
-}
-
-.social-btn span {
-  width: 0px;
-  overflow: hidden;
-  transition: 0.3s;
-  text-align: center;
-  margin-left: 5px;
-}
-
-.social-btn:hover {
-  width: 150px;
-  border-radius: 5px;
-}
-
-.social-btn:hover span {
-  padding: 2px;
-  width: 80px;
 }
 
 /*Subtitulo en mi descripcion*/

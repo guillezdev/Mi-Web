@@ -9,8 +9,8 @@ function Home() {
       <div className="flex flex-col md:flex-row justify-center items-center">
         <div className="flex-1 px-4 lg:text-left w-full md:w-1/2">
           <h4 className="text-2xl font-bold mb-2">¡Hola Mundo! soy</h4>
-          <h1 className="text-4xl font-bold pb-1">
-            <span className="text-primary font-mono">Guillermo González</span>
+          <h1 className="text-3xl sm:text-6xl font-medium pb-1 text-primary font-primary">
+            Guillermo González
           </h1>
           <div className="loader mb-4">
             <div className="scanner">
@@ -31,7 +31,7 @@ function Home() {
               smooth={true}
               offset={-70}
               duration={500}
-              className="flex items-center font-semibold w-30 gap-2 bg-fondo hover:shadow-lg hover:shadow-primary hover:bg-primary hover:-translate-y-1 hover:rotate-1 rounded-md py-2 px-4 cursor-pointer"
+              className="flex items-center font-semibold w-30 gap-2 bg-primary hover:shadow-lg hover:shadow-primary hover:bg-primary hover:-translate-y-1 hover:rotate-1 rounded-md py-2 px-4 cursor-pointer"
             >
               <FaPhoneAlt />
               Contactar

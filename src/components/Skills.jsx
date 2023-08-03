@@ -5,8 +5,8 @@ const Skills = () => {
   return (
     <section id='skills' className='py-16'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 '>
-      <div className='flex flex-col items-end'>
-          <h2 className='text-9xl font-bold text-primary/20 pb-5 mb-4 select-none '>
+      <div className='flex flex-col items-start sm:items-end'>
+          <h2 className='text-6xl md:text-9xl font-bold text-primary/20 pb-5 mb-4 select-none '>
             Habilidades
           </h2>
           <h1 className='text-4xl mb-10 -mt-16 max-w-2xl ml-6 text-secundary'>
