@@ -10,7 +10,7 @@ export default {
         'fondo': '#121821',
         'fondoclaro': '#222831',
         'primary': '#28DF99',
-        'secundary': '#DFF6FF',
+        'secundary': '#727881',
       },
       fontFamily: {
         'primary': ['Roboto+Mono'],

@@ -14,36 +14,27 @@ function ProjectCard(props) {
   const { title, description, imageSrc, githubLink, liveLink, tags } = props;
 
   return (
-    <div className='bg-fondoclaro rounded-lg shadow-xl overflow-hidden h-full flex flex-col'>
+    <div className='flex flex-col md:flex-row relative gap-8 text-white lg:gap-24 items-center w-full'>
       <img
         src={imageSrc}
         alt={title}
-        className='w-full h-auto '
-      />
-      <hr />
-      <div className='p-4 h-full flex flex-col'>
-        <h2 className='text-lg font-bold text-white mb-2 select-none'>
-          {title}
-        </h2>
-        <p className='text-secundary mb-4 select-none'>{description}</p>
-        <div className='flex justify-between items-end flex-grow'>
-          <div className='flex flex-wrap select-none'>
-            {tags.map((Tag) => (
-              <span
-                key={Tag}
-                className='px-2 py-1 bg-transparent shadow-xl text-gray-900 rounded-md mr-2 mb-2'
-              >
-                <Tag size={30}></Tag>
-              </span>
-            ))}
+        className='w-full md:w-1/2 rounded-lg' />
+      <div className="flex flex-col gap-2 ">
+        <h1 className="text-5xl border-b-2 p-4 border-primary">{title}</h1>
+        <p className="text-secundary text-2xl">{description}</p>
+        <div className="flex gap-4">
+          <div className="flex items-center gap-2 hover:scale-110">
+            <a className="text-2xl font-extralight text-primary border-b-2 border-primary" href={githubLink}>Github</a>
+            <FaGithub size={25} />
           </div>
-          <div className='flex gap-4 shadow-xl p-3 rounded-md'>
-            <a href={githubLink} className='cursor-pointer hover:text-gray-600' ><FaGithub className='cursor-pointer' size={30} />Code</a>
-            <a href={liveLink} target="_blanck" className='cursor-pointer hover:text-gray-600'><FaExternalLinkAlt size={30} />Ver</a>
+          <div className="flex items-center gap-2 hover:scale-110">
+            <a className="text-2xl font-extralight text-primary border-b-2 border-primary" href={githubLink}>Ver</a>
+            <FaExternalLinkAlt size={25} />
           </div>
         </div>
       </div>
     </div>
+
   );
 }
 
@@ -86,7 +77,7 @@ function Projects() {
             Explora los <span className="text-primary">proyectos</span> en los que he trabajado.
           </h1>
         </div>
-        <div className='grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3  gap-4'>
+        <div className='flex flex-col gap-16 justify-center items-center py-16 md:py-32'>
           {projects.map((project) => (
             <ProjectCard key={project.title} {...project} />
           ))}
