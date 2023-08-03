@@ -5,6 +5,8 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Experiencia from "./components/Experiencia";
+import Servicios from "./components/Servicios";
 
 
 const App = () => {
@@ -14,6 +16,8 @@ const App = () => {
       <Home />
       <Projects />
       <Skills />
+      <Servicios />
+      <Experiencia />
       <Contact />
       <Footer />
     </main>
