@@ -22,7 +22,7 @@ function Home() {
             Next.js</span>, así como habilidades en la integración con <span className="font-semibold">servicios web</span> y
             <span className="font-semibold"> APIs</span>. Me enfoco en crear interfaces de usuario
             atractivas y accesibles. Me gusta encontrar nuevas
-            formas de simplificarlo que parece difícil.
+            formas de simplificar lo que parece difícil.
           </p>
           <div className="flex gap-7 text-white">
             <Link
@@ -31,7 +31,7 @@ function Home() {
               smooth={true}
               offset={-70}
               duration={500}
-              className="flex items-center font-semibold w-30 gap-2 bg-primary hover:shadow-lg hover:shadow-primary hover:bg-primary hover:-translate-y-1 hover:rotate-1 rounded-md py-2 px-4 cursor-pointer"
+              className="flex text-fondo items-center font-semibold w-30 gap-2 bg-primary hover:shadow-lg hover:shadow-primary hover:bg-primary hover:-translate-y-1 hover:rotate-1 rounded-md py-2 px-4 cursor-pointer"
             >
               <FaPhoneAlt />
               Contactar
@@ -39,7 +39,7 @@ function Home() {
             <a
               href={pdfFile}
               download="guillezdev-cv.pdf"
-              className="flex items-center font-semibold w-32 gap-2 bg-transparent border-[2px] hover:shadow-lg hover:-translate-y-1 hover:rotate-1 hover:shadow-primary border-primary rounded-md py-2 px-4 cursor-pointer"
+              className="flex items-center font-semibold w-32 gap-2 bg-fondo border-[2px] hover:shadow-lg hover:-translate-y-1 hover:rotate-1 hover:shadow-primary border-primary rounded-md py-2 px-4 cursor-pointer"
             >
               <FaDownload />
               CV.pdf
