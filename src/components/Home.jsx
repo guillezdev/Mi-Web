@@ -10,11 +10,11 @@ function Home() {
         <div className="flex-1 px-4 lg:text-left w-full md:w-1/2">
           <h4 className="text-2xl font-bold mb-2">¡Hey!</h4>
           <h1 className="text-4xl font-bold pb-1">
-           Soy <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-900 via-indigo-400 to-indigo-900">Guillermo Gonzalez</span>
+           Soy <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-900 via-indigo-400 to-indigo-900">Guillermo González</span>
           </h1>
           <div className="loader mb-4">
             <div className="scanner">
-              <span className="select-none italic rounded-lg px-[130px]"></span>
+              <span className="select-none italic rounded-lg px-[138px] font-medium text-2xl "></span>
             </div>
           </div>
           <p className="text-lg text-justify mb-8">

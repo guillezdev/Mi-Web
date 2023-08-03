@@ -48,8 +48,6 @@
 /*Subtitulo en mi descripcion*/
 .scanner span {
   color: transparent;
-  font-size: 1.4rem;
-  font-weight: 600;
   position: relative;
   overflow: hidden;
 }
