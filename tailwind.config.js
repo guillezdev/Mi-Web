@@ -12,9 +12,6 @@ export default {
         'primary': '#28DF99',
         'secundary': '#727881',
       },
-      fontFamily: {
-        'primary': ['Roboto+Mono'],
-      },
     },
   },
   plugins: [],

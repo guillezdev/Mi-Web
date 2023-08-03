@@ -20,7 +20,7 @@ function ProjectCard(props) {
         alt={title}
         className='w-full md:w-1/2 rounded-lg' />
       <div className="flex flex-col gap-2 ">
-        <h1 className="text-5xl border-b-2 p-4 border-primary">{title}</h1>
+        <h1 className="text-5xl border-b-2 py-4 border-primary">{title}</h1>
         <p className="text-secundary text-2xl">{description}</p>
         <div className="flex gap-4">
           <div className="flex items-center gap-2 hover:scale-110">

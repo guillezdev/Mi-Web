@@ -18,10 +18,10 @@ function Home() {
             </div>
           </div>
           <p className="text-lg text-justify mb-8">
-            Tengo experiencia en el <span className="font-semibold">desarrollo de aplicaciones web</span> con <span className="font-semibold">React y
+           <span className="text-4xl text-primary">+1</span> años de experiencia en el <span className="font-semibold">desarrollo de aplicaciones web</span> con <span className="font-semibold">React y
             Next.js</span>, así como habilidades en la integración con <span className="font-semibold">servicios web</span> y
             <span className="font-semibold"> APIs</span>. Me enfoco en crear interfaces de usuario
-            atractivas y accesibles. Me gusta el minimalismo y encontrar nuevas
+            atractivas y accesibles. Me gusta encontrar nuevas
             formas de simplificarlo que parece difícil.
           </p>
           <div className="flex gap-7 text-white">
