@@ -5,12 +5,12 @@ import { Link } from "react-scroll";
 import pdfFile from "../../public/cv/guillezdev-cv.pdf";
 function Home() {
   return (
-    <header className="max-w-7xl mx-auto mb-10 text-black" id="home">
+    <header className="max-w-7xl mx-auto mb-10 text-white" id="home">
       <div className="flex flex-col md:flex-row justify-center items-center">
         <div className="flex-1 px-4 lg:text-left w-full md:w-1/2">
-          <h4 className="text-2xl font-bold mb-2">¡Hey!</h4>
+          <h4 className="text-2xl font-bold mb-2">¡Hola Mundo! soy</h4>
           <h1 className="text-4xl font-bold pb-1">
-           Soy <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-900 via-indigo-400 to-indigo-900">Guillermo González</span>
+            <span className="text-primary font-mono">Guillermo González</span>
           </h1>
           <div className="loader mb-4">
             <div className="scanner">
@@ -24,14 +24,14 @@ function Home() {
             atractivas y accesibles. Me gusta el minimalismo y encontrar nuevas
             formas de simplificarlo que parece difícil.
           </p>
-          <div className="flex gap-7">
+          <div className="flex gap-7 text-white">
             <Link
               to="contact"
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
-              className="flex items-center font-semibold w-30 gap-2 bg-primary hover:shadow-lg hover:shadow-primary hover:bg-primary hover:-translate-y-1 hover:rotate-1 rounded-md py-2 px-4 cursor-pointer"
+              className="flex items-center font-semibold w-30 gap-2 bg-fondo hover:shadow-lg hover:shadow-primary hover:bg-primary hover:-translate-y-1 hover:rotate-1 rounded-md py-2 px-4 cursor-pointer"
             >
               <FaPhoneAlt />
               Contactar
@@ -39,7 +39,7 @@ function Home() {
             <a
               href={pdfFile}
               download="guillezdev-cv.pdf"
-              className="flex items-center font-semibold w-32 gap-2 bg-white border-[2px] hover:shadow-lg hover:-translate-y-1 hover:rotate-1 hover:shadow-primary border-primary rounded-md py-2 px-4 cursor-pointer"
+              className="flex items-center font-semibold w-32 gap-2 bg-transparent border-[2px] hover:shadow-lg hover:-translate-y-1 hover:rotate-1 hover:shadow-primary border-primary rounded-md py-2 px-4 cursor-pointer"
             >
               <FaDownload />
               CV.pdf

@@ -14,7 +14,7 @@ function ProjectCard(props) {
   const { title, description, imageSrc, githubLink, liveLink, tags } = props;
 
   return (
-    <div className='bg-white rounded-lg shadow-xl overflow-hidden h-full flex flex-col'>
+    <div className='bg-fondoclaro rounded-lg shadow-xl overflow-hidden h-full flex flex-col'>
       <img
         src={imageSrc}
         alt={title}
@@ -22,16 +22,16 @@ function ProjectCard(props) {
       />
       <hr />
       <div className='p-4 h-full flex flex-col'>
-        <h2 className='text-lg font-bold text-gray-800 mb-2 select-none'>
+        <h2 className='text-lg font-bold text-white mb-2 select-none'>
           {title}
         </h2>
-        <p className='text-gray-500 mb-4 select-none'>{description}</p>
+        <p className='text-secundary mb-4 select-none'>{description}</p>
         <div className='flex justify-between items-end flex-grow'>
           <div className='flex flex-wrap select-none'>
             {tags.map((Tag) => (
               <span
                 key={Tag}
-                className='px-2 py-1 bg-gray-100 shadow-xl text-gray-900 rounded-md mr-2 mb-2'
+                className='px-2 py-1 bg-transparent shadow-xl text-gray-900 rounded-md mr-2 mb-2'
               >
                 <Tag size={30}></Tag>
               </span>
@@ -76,16 +76,15 @@ function Projects() {
   ];
 
   return (
-    <div className='' id='projects'>
+    <div className='bg-black/50 py-16' id='projects'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-        <div className='text-center'>
-          <h2 className='text-3xl font-bold text-gray-800 mb-4 select-none'>
+        <div className='flex flex-col'>
+          <h2 className='text-9xl font-bold bg-clip-text text-transparent bg-primary/10 pb-5 mb-4 select-none '>
             Proyectos
           </h2>
-          <p className='mb-4 max-w-2xl mx-auto'>
-            Explora los proyectos en los que he trabajado. ¡Espero que lo
-            disfrutes!
-          </p>
+          <h1 className='text-4xl mb-10 -mt-16 max-w-2xl ml-6 text-secundary'>
+            Explora los <span className="text-primary">proyectos</span> en los que he trabajado.
+          </h1>
         </div>
         <div className='grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3  gap-4'>
           {projects.map((project) => (

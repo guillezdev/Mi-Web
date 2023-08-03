@@ -9,14 +9,14 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <>
+    <main className="bg-fondo">
       <Navbar />
       <Home />
       <Projects />
       <Skills />
       <Contact />
       <Footer />
-    </>
+    </main>
   );
 };
 

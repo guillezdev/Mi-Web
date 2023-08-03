@@ -6,9 +6,9 @@ import { MdEmail } from "react-icons/md";
 import CardProfile from "./CardProfile";
 function Contact() {
   return (
-    <div className="" id="contact">
+    <div className="text-secundary bg-black/50" id="contact">
       <div className="text-center">
-        <h2 className="text-3xl mb-4 font-bold text-gray-800">Contáctame</h2>
+        <h2 className="text-3xl mb-4 font-bold text-current">Contáctame</h2>
         <div className="mb-4 max-w-2xl mx-auto">
           <div className="social-links">
             <a
@@ -59,12 +59,12 @@ function Contact() {
                 <p className=" text-lg">guillezdev@gmail.com</p>
               </a>
             </div>
-            <form name="contact" method="post" className="mb-4">
+            <form name="contact" method="post" className="mb-4 bg-black/50 p-4 rounded-md">
               <input type="hidden" name="form-name" value="contact" />
               <div className="mb-4">
                 <label
                   htmlFor="name"
-                  className="block text-gray-700 font-medium mb-2"
+                  className="block text-white font-medium mb-2"
                 >
                   Nombre
                 </label>
@@ -73,13 +73,13 @@ function Contact() {
                   placeholder="Max/Adevinta"
                   type="text"
                   name="name"
-                  className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:border-blue-500"
+                  className="w-full border border-gray-300 rounded-md py-2 px-3 text-white focus:outline-none focus:border-blue-500"
                 />
               </div>
               <div className="mb-4">
                 <label
                   htmlFor="email"
-                  className="block text-gray-700 font-medium mb-2"
+                  className="block text-white font-medium mb-2"
                 >
                   Correo electrónico
                 </label>
@@ -88,13 +88,13 @@ function Contact() {
                   placeholder="correo@gmail.com"
                   type="email"
                   name="email"
-                  className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:border-blue-500"
+                  className="w-full border border-gray-300 rounded-md py-2 px-3 text-white focus:outline-none focus:border-blue-500"
                 />
               </div>
               <div className="mb-4">
                 <label
                   htmlFor="message"
-                  className="block text-gray-700 font-medium mb-2"
+                  className="block text-white font-medium mb-2"
                 >
                   Mensaje
                 </label>
@@ -103,7 +103,7 @@ function Contact() {
                   placeholder="Hola , nos gustaria contactar contigo."
                   name="message"
                   rows="4"
-                  className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:border-blue-500"
+                  className="w-full border border-gray-300 rounded-md py-2 px-3 text-white focus:outline-none focus:border-blue-500"
                 ></textarea>
               </div>
               <button

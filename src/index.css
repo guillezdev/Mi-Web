@@ -61,7 +61,7 @@
   height: 100%;
   border-right: 5px solid #000000;
   overflow: hidden;
-  color: #000000;
+  color: #fff;
   animation: frontend 4s linear infinite;
 }
 
