@@ -14,7 +14,7 @@ function ProjectCard(props) {
   const { title, description, imageSrc, githubLink, liveLink, tags } = props;
 
   return (
-    <div className='flex flex-col md:flex-row relative gap-8 text-white lg:gap-24 items-center w-full'>
+    <div className={`flex flex-col ${title == 'Danet' ? 'md:flex-row-reverse' : 'md:flex-row'} relative gap-8 text-white lg:gap-24 items-center w-full`}>
       <img
         src={imageSrc}
         alt={title}
