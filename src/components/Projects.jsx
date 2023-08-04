@@ -23,12 +23,12 @@ function ProjectCard(props) {
         <h1 className="text-5xl border-b-2 py-4 border-primary">{title}</h1>
         <p className="text-secundary text-2xl">{description}</p>
         <div className="flex gap-4">
-          <div className="flex items-center gap-2 hover:scale-110">
-            <a className="text-2xl font-extralight text-primary border-b-2 border-primary" href={githubLink}>Github</a>
+          <div className="flex items-center gap-2 hover:-translate-y-2 hover:rotate-3 border-b-2 border-white pb-1 hover:border-primary cursor-pointer">
+            <a className="text-2xl font-extralight text-primary " href={githubLink}>Github</a>
             <FaGithub size={25} />
           </div>
-          <div className="flex items-center gap-2 hover:scale-110">
-            <a className="text-2xl font-extralight text-primary border-b-2 border-primary" href={githubLink}>Ver</a>
+          <div className="flex items-center gap-2 hover:-translate-y-2 hover:rotate-3 border-b-2 border-white pb-1 hover:border-primary cursor-pointer">
+            <a className="text-2xl font-extralight text-primary" href={githubLink}>Ver</a>
             <FaExternalLinkAlt size={25} />
           </div>
         </div>

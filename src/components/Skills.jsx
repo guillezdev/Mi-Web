@@ -19,13 +19,13 @@ const Skills = () => {
               key={skill.id}
               className='flex flex-col items-center '
             >
-              <div className="text-white w-14 h-auto flex flex-col items-center justify-center lg:scale-150 hover:-translate-y-2 hover:rotate-3 cursor-pointer hover:text-primary ">
-                <h3 className="text-lg flex"><span className="text-primary font-extrabold">-</span>{skill.name}</h3>
+              <div className="text-white w-14 h-auto flex flex-col items-center justify-center lg:scale-150 hover:-translate-y-2 hover:rotate-3 cursor-pointer hover:text-primary">
+                <h3 className="text-lg flex relative"><span className="absolute -left-2  peer-hover:text-7xl text-primary font-extrabold">-</span>{skill.name}</h3>
                 <skill.icon size={60} className='mb-2 w-full h-full select-none text-white' />
               </div>
             </div>
           ))}
-          <div className="text-primary text-[66px] lg:text-8xl">...</div>
+          <div className="text-primary text-[66px] lg:text-8xl select-none">...</div>
         </div>
       </div>
     </section>
