@@ -24,6 +24,7 @@ const Navbar = () => {
         className={`sticky py-0 top-0 inset-x-0 z-50 backdrop-filter bg-opacity-10 shadow-sm backdrop-blur-sm`}
       >
         <div className="max-w-7xl mx-auto py-4 px-4">
+
           <div className="flex justify-between items-center ">
             <Link
               to="home"
@@ -36,6 +37,7 @@ const Navbar = () => {
             >
               Portafolio
             </Link>
+
             <div className="hidden md:block">
               <ul className="flex space-x-4">
                 <li>

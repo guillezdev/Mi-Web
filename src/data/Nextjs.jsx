@@ -5,7 +5,7 @@ export function Nextjs({ size }) {
   const estilos = {
     height: `${size}px`,
     width: `${size}px`,
-    marginBottom: "8px"
+    marginBottom: ""
   };
 
   return <img className="select-none" style={estilos} src={nextjs} alt="Nextjs" />;

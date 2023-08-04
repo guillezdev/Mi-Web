@@ -11,10 +11,10 @@ import { Nextjs } from "../data/Nextjs";
 
 import numeria from "../assets/Numeria.jpg";
 function ProjectCard(props) {
-  const { title, description, imageSrc, githubLink, liveLink, tags } = props;
+  const { title, description, imageSrc, githubLink, liveLink, tags, index } = props;
 
   return (
-    <div className={`flex flex-col ${title == 'Danet' ? 'md:flex-row-reverse' : 'md:flex-row'} relative gap-8 text-white lg:gap-24 items-center w-full`}>
+    <div className={`flex flex-col ${index % 2 !== 0 ? 'md:flex-row-reverse' : 'md:flex-row'} relative gap-8 text-white lg:gap-24 items-center w-full`}>
       <img
         src={imageSrc}
         alt={title}
@@ -73,13 +73,13 @@ function Projects() {
           <h2 className='text-7xl md:text-9xl font-bold bg-clip-text text-transparent bg-primary/10 pb-5 mb-4 select-none '>
             Proyectos
           </h2>
-          <h1 className='text-4xl mb-10 -mt-16 max-w-2xl ml-6 text-secundary'>
+          <h1 className='text-4xl mb-10 -mt-16 max-w-2xl ml-6 text-white'>
             Explora los <span className="text-primary">proyectos</span> en los que he trabajado.
           </h1>
         </div>
         <div className='flex flex-col gap-16 justify-center items-center py-16 md:py-32'>
-          {projects.map((project) => (
-            <ProjectCard key={project.title} {...project} />
+          {projects.map((project, index) => (
+            <ProjectCard key={project.title} {...project} index={index} />
           ))}
         </div>
       </div>
