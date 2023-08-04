@@ -2,12 +2,16 @@ import {
   FaHtml5,
   FaCss3Alt,
   FaReact,
-  FaJsSquare,
   FaGitAlt,
   FaGithub,
+  FaFigma
+
 } from "react-icons/fa";
-import { SiRedux, SiTailwindcss } from "react-icons/si";
-import {Nextjs} from './Nextjs'
+import { SiRedux, SiTailwindcss, SiTypescript, SiJavascript} from "react-icons/si";
+
+
+
+import { Nextjs } from './Nextjs'
 
 export const skills = [
   {
@@ -34,7 +38,14 @@ export const skills = [
     name: "JavaScript",
     description:
       "Lenguaje de programación para desarrollar sitios web interactivos.",
-    icon: FaJsSquare,
+    icon: SiJavascript,
+  },
+  {
+    id: 11,
+    name: "TypeScript",
+    description:
+      "Lenguaje de programación para desarrollar sitios web interactivos.",
+    icon: SiTypescript,
   },
   {
     id: 5,
@@ -67,5 +78,11 @@ export const skills = [
     name: "GitHub",
     description: "Plataforma para alojar y colaborar en proyectos de software.",
     icon: FaGithub,
+  },
+  {
+    id: 10,
+    name: "Figma",
+    description: "Plataforma para colaborar y diseñar en equipo.",
+    icon: FaFigma,
   },
 ];

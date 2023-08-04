@@ -14,7 +14,7 @@ function ProjectCard(props) {
   const { title, description, imageSrc, githubLink, liveLink, tags, index } = props;
 
   return (
-    <div className={`flex flex-col ${index % 2 !== 0 ? 'md:flex-row-reverse' : 'md:flex-row'} relative gap-8 text-white lg:gap-24 items-center w-full`}>
+    <section className={`flex flex-col ${index % 2 !== 0 ? 'md:flex-row-reverse' : 'md:flex-row'} relative gap-8 text-white lg:gap-24 items-center w-full`}>
       <img
         src={imageSrc}
         alt={title}
@@ -33,7 +33,7 @@ function ProjectCard(props) {
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
   );
 }
