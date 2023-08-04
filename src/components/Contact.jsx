@@ -29,8 +29,8 @@ function Contact() {
             <div className="flex flex-col justify-center items-center gap-4">
               <h3 className="relative text-xl"><span className="absolute -left-2  peer-hover:text-7xl text-primary font-extrabold">-</span>Redes sociales</h3>
               <div className="flex gap-6">
-                <a className="text-primary lg:scale-125 hover:-translate-y-2 hover:rotate-3" href=""><FaGithub size={40} /></a>
-                <a className="text-primary lg:scale-125 hover:-translate-y-2 hover:rotate-3" href=""><FaLinkedin size={40} /></a>
+                <a className="text-primary lg:scale-125 hover:-translate-y-2 hover:rotate-3" href="https://github.com/guillezdev"><FaGithub size={40} /></a>
+                <a className="text-primary lg:scale-125 hover:-translate-y-2 hover:rotate-3" href="https://www.linkedin.com/in/guillezdev/"><FaLinkedin size={40} /></a>
               </div>
             </div>
 
