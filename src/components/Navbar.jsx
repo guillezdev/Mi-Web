@@ -20,8 +20,9 @@ const Navbar = () => {
 
   return (
     <>
+      <div className="h-16"></div>
       <nav
-        className={`sticky py-0 top-0 inset-x-0 z-50 backdrop-filter bg-opacity-10 shadow-sm backdrop-blur-sm`}
+        className={`fixed py-0 top-0 inset-x-0 z-50 backdrop-filter bg-opacity-10 shadow-sm backdrop-blur-sm`}
       >
         <div className="max-w-7xl mx-auto py-4 px-4">
 
@@ -94,45 +95,13 @@ const Navbar = () => {
               </ul>
             </div>
 
-            <div className="md:hidden">
-              <button
-                className="flex items-center justify-center h-8 w-8 text-white hover:shadow-xl py-1 px-2 rounded-md focus:outline-none"
-                onClick={() => setIsOpen(!isOpen)}
-              >
-                {isOpen ? (
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    aria-hidden="true"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M6 18L18 6M6 6l12 12"
-                    />
-                  </svg>
-                ) : (
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    aria-hidden="true"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M4 6h16M4 12h16M4 18h16"
-                    />
-                  </svg>
-                )}
-              </button>
+            <div className="md:hidden scale-75 -translate-y-1">
+              <input id="checkbox" type="checkbox" checked={isOpen} onClick={() => setIsOpen(!isOpen)} />
+              <label class="toggle" for="checkbox">
+                <div id="bar1" class="bars"></div>
+                <div id="bar2" class="bars"></div>
+                <div id="bar3" class="bars"></div>
+              </label>
             </div>
           </div>
 

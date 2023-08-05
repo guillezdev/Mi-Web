@@ -35,19 +35,104 @@
 }
 
 @keyframes frontend {
-  0% , 10% , 100% {
+
+  0%,
+  10%,
+  100% {
     width: 0;
   }
 
-  10%,20%,30%,40%,50%,60%,70%,80%,90%,100% {
+  10%,
+  20%,
+  30%,
+  40%,
+  50%,
+  60%,
+  70%,
+  80%,
+  90%,
+  100% {
     border-right-color: transparent;
   }
 
-  11%,21%,31%,41%,51%,61%,71%,81%,91% {
+  11%,
+  21%,
+  31%,
+  41%,
+  51%,
+  61%,
+  71%,
+  81%,
+  91% {
     border-right-color: #8791DA;
   }
 
-  50%, 80% {
+  50%,
+  80% {
     width: 100%;
   }
+}
+
+/*Menu button*/
+#checkbox {
+  display: none;
+}
+
+.toggle {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  transition-duration: .5s;
+}
+
+.bars {
+  width: 100%;
+  height: 4px;
+  background-color: #28DF99;
+  border-radius: 4px;
+}
+
+#bar2 {
+  transition-duration: .8s;
+}
+
+#bar1 {
+  width: 50%;
+}
+
+#bar2 {
+  width: 75%;
+}
+
+#checkbox:checked+.toggle .bars {
+  position: absolute;
+  transition-duration: .5s;
+}
+
+#checkbox:checked+.toggle #bar2 {
+  transform: scaleX(0);
+  transition-duration: .1s;
+}
+
+#checkbox:checked+.toggle #bar1 {
+  width: 100%;
+  transform: rotate(45deg);
+  transition-duration: .5s;
+}
+
+#checkbox:checked+.toggle #bar3 {
+  width: 100%;
+  transform: rotate(-45deg);
+  transition-duration: .5s;
+}
+
+#checkbox:checked+.toggle {
+  transition-duration: .5s;
+  transform: rotate(180deg);
 }
