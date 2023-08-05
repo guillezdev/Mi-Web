@@ -4,7 +4,8 @@ import {
   FaGithub,
   FaExternalLinkAlt,
 } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
+
+import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 import Danet from "../assets/Danet.jpg";
 import LogoYadel from '../assets/LogoYadel.jpg'
 import { Nextjs } from "../data/Nextjs";
@@ -14,26 +15,33 @@ function ProjectCard(props) {
   const { title, description, imageSrc, githubLink, liveLink, tags, index } = props;
 
   return (
-    <section className={`flex flex-col ${index % 2 !== 0 ? 'md:flex-row-reverse' : 'md:flex-row'} relative gap-8 text-white lg:gap-24 items-center w-full`}>
+    <section className={`flex flex-col ${index % 2 !== 0 ? 'md:flex-row-reverse' : 'md:flex-row'} relative gap-8 text-white items-center w-full`}>
       <img
         height='360'
         width='640'
         src={imageSrc}
         alt={title}
         className='w-full md:w-1/2 rounded-lg' />
-      <div className="flex flex-col gap-2 ">
-        <h1 className="text-5xl border-b-2 py-4 border-primary">{title}</h1>
+      <div className="absolute -m-6 flex gap-2 items-center bg-fondo/60 backdrop-blur-sm p-2 rounded-xl w-fit text-lg">
+        {tags.map((Tag) => {
+          return <Tag className='hover:text-primary' hover={`primary`} size={35} />
+        })}
+      </div>
+      <div className="flex flex-col gap-2 w-full md:w-1/2">
+        <h1 className="text-5xl border-b-2 border-r-2 py-4 border-primary">{title}</h1>
         <p className="text-secundary text-2xl">{description}</p>
         <div className="flex gap-4">
-          <div className="flex items-center gap-2 hover:-translate-y-2 hover:rotate-3 border-b-2 border-white pb-1 hover:border-primary cursor-pointer">
-            <a className="text-2xl font-extralight text-primary " target="_blank" href={githubLink}>Github</a>
+          <div className="flex items-center gap-2 hover:underline hover:text-primary pb-1 hover:border-primary cursor-pointer">
+            <a className="text-2xl font-extralight text-primary" target="_blank" href={githubLink}>Github</a>
             <FaGithub size={25} />
           </div>
-          <div className="flex items-center gap-2 hover:-translate-y-2 hover:rotate-3 border-b-2 border-white pb-1 hover:border-primary cursor-pointer">
+          <div className="flex items-center gap-2 hover:underline hover:text-primary pb-1 hover:border-primary cursor-pointer">
             <a className="text-2xl font-extralight text-primary" target="_blank" href={liveLink}>Ver</a>
             <FaExternalLinkAlt size={25} />
           </div>
+
         </div>
+
       </div>
     </section>
 
@@ -64,7 +72,7 @@ function Projects() {
       imageSrc: LogoYadel,
       githubLink: "https://github.com/guillezdev/Costura-Alteraciones",
       liveLink: "https://alteration.netlify.app/",
-      tags: [Nextjs, SiTailwindcss],
+      tags: [SiNextdotjs, SiTailwindcss],
     },
   ];
 
