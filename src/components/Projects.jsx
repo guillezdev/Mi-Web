@@ -28,7 +28,7 @@ function ProjectCard(props) {
             <FaGithub size={25} />
           </div>
           <div className="flex items-center gap-2 hover:-translate-y-2 hover:rotate-3 border-b-2 border-white pb-1 hover:border-primary cursor-pointer">
-            <a className="text-2xl font-extralight text-primary" href={githubLink}>Ver</a>
+            <a className="text-2xl font-extralight text-primary" href={liveLink}>Ver</a>
             <FaExternalLinkAlt size={25} />
           </div>
         </div>

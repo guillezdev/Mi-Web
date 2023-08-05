@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Transition } from "@headlessui/react";
 import { Link } from "react-scroll";
-import Favicon from "../assets/logo.svg";
+
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
   const [isOpen, setIsOpen] = useState(false);

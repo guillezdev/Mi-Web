@@ -3,6 +3,7 @@ import imgfront from "../assets/Frontend.svg";
 import { FaPhoneAlt, FaDownload } from "react-icons/fa";
 import { Link } from "react-scroll";
 import pdfFile from "../../public/cv/guillezdev-cv.pdf";
+
 function Home() {
   return (
     <header className="max-w-7xl mx-auto mb-10 text-white py-16" id="home">
