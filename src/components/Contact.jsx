@@ -34,7 +34,7 @@ function Contact() {
 
         <div className='flex flex-col px-4'>
           <h2 className='text-7xl md:text-9xl font-bold bg-clip-text text-transparent bg-primary/10 pb-5 mb-4 select-none '>
-            Contactar
+            Contacto
           </h2>
           <h1 className='text-4xl mb-10 -mt-16 max-w-2xl ml-6 text-white'>
             Enviame un <span className="text-primary">mensaje</span> directo.
