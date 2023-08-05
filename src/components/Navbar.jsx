@@ -96,11 +96,11 @@ const Navbar = () => {
             </div>
 
             <div className="md:hidden scale-75 -translate-y-1">
-              <input id="checkbox" type="checkbox" checked={isOpen} onClick={() => setIsOpen(!isOpen)} />
-              <label class="toggle" for="checkbox">
-                <div id="bar1" class="bars"></div>
-                <div id="bar2" class="bars"></div>
-                <div id="bar3" class="bars"></div>
+              <input id="checkbox" type="checkbox" checked={isOpen} onChange={() => setIsOpen(!isOpen)} />
+              <label className="toggle" htmlFor="checkbox">
+                <div id="bar1" className="bars"></div>
+                <div id="bar2" className="bars"></div>
+                <div id="bar3" className="bars"></div>
               </label>
             </div>
           </div>
