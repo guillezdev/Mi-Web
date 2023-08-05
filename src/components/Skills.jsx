@@ -13,7 +13,7 @@ const Skills = () => {
             Descubre como puedo <span className="text-primary">contribuir</span> en tu equipo.
           </h1>
         </div>
-        <div className='grid grid-cols-4 sm:grid-cols-5 justify-stretch gap-10 lg:gap-y-32 py-16 px-4'>
+        <div className='grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 justify-stretch gap-10 lg:gap-y-32 py-16 px-4'>
           {skills.map((skill) => (
             <div
               key={skill.id}
