@@ -11,7 +11,7 @@ import Servicios from "./components/Servicios";
 
 const App = () => {
   return (
-    <main className="bg-fondo">
+    <>
       <Navbar />
       <Home />
       <Projects />
@@ -20,7 +20,7 @@ const App = () => {
       <Experiencia />
       <Contact />
       <Footer />
-    </main>
+    </>
   );
 };
 
