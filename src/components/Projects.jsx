@@ -16,6 +16,8 @@ function ProjectCard(props) {
   return (
     <section className={`flex flex-col ${index % 2 !== 0 ? 'md:flex-row-reverse' : 'md:flex-row'} relative gap-8 text-white lg:gap-24 items-center w-full`}>
       <img
+        height='360'
+        width='640'
         src={imageSrc}
         alt={title}
         className='w-full md:w-1/2 rounded-lg' />
