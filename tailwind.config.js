@@ -9,7 +9,7 @@ export default {
       colors: {
         'fondo': '#121821',
         'fondoclaro': '#222831',
-        'primary': '#28DF99',
+        'primary': '#75C2F6',
         'secundary': '#828891',
       },
     },
