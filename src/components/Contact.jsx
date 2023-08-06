@@ -48,8 +48,8 @@ function Contact() {
             <div className="flex flex-col justify-center items-center gap-4 py-4">
               <h1 className="text-md md:text-2xl inline-block text-center relative"><span className="left-6 text-primary font-extrabold">-</span>Actualmente estoy abierto a nuevas oportunidades laborales, si quieres contactarme puedes hacerlo a través de mis redes o enviarme un <a href="mailto:guillezdev@gmail.com" className="text-primary underline decoration-primary">E-mail</a> al siguiente enlace.</h1>
               <div className="relative">
-                <a className="flex w-fit text-fondo items-center font-semibold w-30 gap-2 bg-primary hover:shadow-md hover:shadow-primary hover:bg-primary hover:-translate-y-1 hover:rotate-1 rounded-md py-2 px-4 cursor-pointer" href="mailto:guillezdev@gmail.com"><MdEmail size={40} />Hablemos</a>
-                <div className="absolute -right-8 flex justify-start top-4 cursor-pointer text-primary w-7 rounded-md p-1" onClick={handleCopy}>
+                <a className="flex w-fit text-fondo items-center font-semibold w-30 gap-2 bg-primary hover:shadow-md hover:shadow-primary hover:bg-primary hover:-translate-y-1 hover:rotate-1 rounded-md py-1 px-1 cursor-pointer" href="mailto:guillezdev@gmail.com"><MdEmail size={25} />guillezdev@gmail.com</a>
+                <div className="absolute -right-8 flex justify-start top-[0.3px] cursor-pointer text-primary w-7 rounded-md p-1" onClick={handleCopy}>
                   {clipboardcheck ? <div className="flex gap-1 items-center"><BsClipboardCheck size={20} /><p className="text-[10px]">Copiado</p></div> : <BsClipboard size={20} />}
                 </div>
               </div>
