@@ -31,10 +31,10 @@ function ProjectCard(props) {
         <h1 className="text-5xl border-b-2 border-r-2 py-4 border-primary">{title}</h1>
         <p className="text-secundary text-2xl">{description}</p>
         <div className="flex gap-4">
-          <div className="flex items-center gap-2 hover:underline hover:text-primary pb-1 hover:border-primary cursor-pointer">
+          {/* <div className="flex items-center gap-2 hover:underline hover:text-primary pb-1 hover:border-primary cursor-pointer">
             <a className="text-2xl font-extralight text-primary" target="_blank" href={githubLink}>Github</a>
             <FaGithub size={25} />
-          </div>
+          </div> */}
           <div className="flex items-center gap-2 hover:underline hover:text-primary pb-1 hover:border-primary cursor-pointer">
             <a className="text-2xl font-extralight text-primary" target="_blank" href={liveLink}>Ver</a>
             <FaExternalLinkAlt size={25} />
