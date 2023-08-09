@@ -33,7 +33,7 @@ function Contact() {
       <div className=" max-w-7xl mx-auto py-16">
 
         <div className='flex flex-col px-4'>
-          <h2 className='text-7xl md:text-9xl font-bold bg-clip-text text-transparent bg-primary/10 pb-5 mb-4 select-none '>
+          <h2 className='text-7xl md:text-9xl font-bold text-primary/20 pb-5 mb-4 select-none '>
             Contacto
           </h2>
           <h1 className='text-4xl mb-10 -mt-16 max-w-2xl ml-6 text-white'>
