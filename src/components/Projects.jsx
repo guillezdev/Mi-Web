@@ -3,14 +3,16 @@ import {
   FaReact,
   FaGithub,
   FaExternalLinkAlt,
+  FaCss3Alt
 } from "react-icons/fa";
-
+import { SiRedux, SiReactrouter } from "react-icons/si";
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
-import Danet from "../assets/Danet.jpg";
-import LogoYadel from '../assets/LogoYadel.jpg'
+import Danet from "../assets/danetproject.webp";
+import LogoYadel from '../assets/yadel.webp'
+import numeria from "../assets/numeriaa.webp";
+import movie from "../assets/buscarpelis.webp";
 import { Nextjs } from "../data/Nextjs";
 
-import numeria from "../assets/Numeria.jpg";
 function ProjectCard(props) {
   const { title, description, imageSrc, githubLink, liveLink, tags, index } = props;
 
@@ -56,7 +58,7 @@ function Projects() {
       imageSrc: numeria,
       githubLink: "https://github.com/wolfsoul01/Proyecto-Numeria-Web",
       liveLink: "https://numeria.netlify.app/",
-      tags: [FaReact, SiTailwindcss],
+      tags: [FaReact, SiTailwindcss, SiReactrouter],
     },
     {
       title: "Danet",
@@ -64,7 +66,7 @@ function Projects() {
       imageSrc: Danet,
       githubLink: "https://github.com/guillezdev/Salon-de-Belleza-Danet",
       liveLink: "https://danetdelatorre.vercel.app/",
-      tags: [FaReact, SiTailwindcss],
+      tags: [FaReact, SiTailwindcss, SiReactrouter],
     },
     {
       title: "L&RAlteration",
@@ -73,6 +75,14 @@ function Projects() {
       githubLink: "https://github.com/guillezdev/Costura-Alteraciones",
       liveLink: "https://alteration.netlify.app/",
       tags: [SiNextdotjs, SiTailwindcss],
+    },
+    {
+      title: "Search-muvie",
+      description: "Busca tus peliculas y series favoritas",
+      imageSrc: movie,
+      githubLink: "#",
+      liveLink: "https://search-muvie.netlify.app",
+      tags: [FaReact, SiRedux, FaCss3Alt],
     },
   ];
 

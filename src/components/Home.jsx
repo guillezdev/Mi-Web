@@ -18,12 +18,9 @@ function Home() {
               <span className="select-none italic rounded-lg px-[138px] font-medium text-2xl "></span>
             </div>
           </div>
-          <p className="text-xl md:text-justify mb-8">
-            <span className="text-4xl text-primary"> +1</span> años de experiencia en el <span className="font-semibold">desarrollo de aplicaciones web</span> con <span className="font-semibold">React.js y
-            Next.js</span> , así como habilidades en la integración con <span className="font-semibold">servicios web</span> y
-            <span className="font-semibold"> APIs</span>. Me enfoco en crear interfaces de usuario
-            atractivas y accesibles. Me gusta encontrar nuevas
-            formas de simplificar lo que parece difícil.
+          <p className="text-xl mb-8 font-extralight tracking-wide">
+            Enfocado en el <span className="font-normal">desarrollo de aplicaciones web</span> utilizando <span className="font-normal text-primary">React.js</span>, tengo habilidades sólidas en la integración con <span className="font-normal">servicios web</span> y
+            <span className="font-normal"> APIs</span>. Me esfuerzo por crear interfaces de usuario atractivas y accesibles pero con el mejor rendimiento posible para garantizar una experiencia fluida y natural.
           </p>
           <div className="flex gap-7 text-white">
             <Link
