@@ -54,7 +54,7 @@ function Projects() {
   const projects = [
     {
       title: "Numeria",
-      description: "Realiza calculos relacionados con la matemática numérica",
+      description: "Realiza cálculos en el ámbito de las matemáticas numéricas.",
       imageSrc: numeria,
       githubLink: "https://github.com/wolfsoul01/Proyecto-Numeria-Web",
       liveLink: "https://numeria.netlify.app/",
@@ -62,7 +62,7 @@ function Projects() {
     },
     {
       title: "Danet",
-      description: "Salón de Belleza con diferentes servicios",
+      description: "Salón de belleza que ofrece una variedad de servicios.",
       imageSrc: Danet,
       githubLink: "https://github.com/guillezdev/Salon-de-Belleza-Danet",
       liveLink: "https://danetdelatorre.vercel.app/",
@@ -70,7 +70,7 @@ function Projects() {
     },
     {
       title: "L&RAlteration",
-      description: "Servicios de costura y alteraciones",
+      description: "Servicios de confección y modificaciones de prendas.",
       imageSrc: LogoYadel,
       githubLink: "https://github.com/guillezdev/Costura-Alteraciones",
       liveLink: "https://alteration.netlify.app/",
@@ -78,7 +78,7 @@ function Projects() {
     },
     {
       title: "Search-muvie",
-      description: "Busca tus peliculas y series favoritas",
+      description: "Descubre tus películas y series favoritas.",
       imageSrc: movie,
       githubLink: "#",
       liveLink: "https://search-muvie.netlify.app",
