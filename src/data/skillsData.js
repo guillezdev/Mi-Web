@@ -4,10 +4,11 @@ import {
   FaReact,
   FaGitAlt,
   FaGithub,
-  FaFigma
+  FaFigma,
+  FaSass
 
 } from "react-icons/fa";
-import { SiRedux, SiTailwindcss, SiTypescript, SiJavascript} from "react-icons/si";
+import { SiRedux, SiTailwindcss, SiJavascript } from "react-icons/si";
 
 
 
@@ -27,6 +28,13 @@ export const skills = [
     icon: FaCss3Alt,
   },
   {
+    id: 11,
+    name: "Sass",
+    description:
+      "Sass es el lenguaje de extensión CSS de nivel profesional más maduro, estable y potente del mundo.",
+    icon: FaSass,
+  },
+  {
     id: 3,
     name: "Tailwind",
     description:
@@ -39,13 +47,6 @@ export const skills = [
     description:
       "Lenguaje de programación para desarrollar sitios web interactivos.",
     icon: SiJavascript,
-  },
-  {
-    id: 11,
-    name: "TypeScript",
-    description:
-      "Lenguaje de programación para desarrollar sitios web interactivos.",
-    icon: SiTypescript,
   },
   {
     id: 5,
