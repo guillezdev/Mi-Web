@@ -54,7 +54,7 @@ function Projects() {
   const projects = [
     {
       title: "SuperLetter",
-      description: "SuperLetter es mi proyecto personal, creado con la intención de ofrecer un espacio dedicado a los amantes de la literatura. En SuperLetter, todo es gratuito. La plataforma te permite encontrar tus libros favoritos y publicar tus propias obras literarias.",
+      description: "SuperLetter es un proyecto personal, creado con la intención de ofrecer un espacio dedicado a los amantes de la literatura. En SuperLetter, todo es gratuito. La plataforma te permite encontrar tus libros favoritos y publicar tus propias obras literarias.",
       imageSrc: superletter,
       githubLink: "",
       liveLink: "https://superletter.netlify.app/",

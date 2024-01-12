@@ -8,7 +8,7 @@ import {
   FaSass
 
 } from "react-icons/fa";
-import { SiRedux, SiTailwindcss, SiJavascript } from "react-icons/si";
+import { SiRedux, SiTailwindcss, SiJavascript, SiSupabase } from "react-icons/si";
 
 
 
@@ -55,13 +55,6 @@ export const skills = [
     icon: FaReact,
   },
   {
-    id: 6,
-    name: "Next.js",
-    description:
-      "Framework de React para el desarrollo de aplicaciones web escalables.",
-    icon: Nextjs,
-  },
-  {
     id: 7,
     name: "Redux",
     description: "Librería para gestionar el estado global de una aplicación.",
@@ -79,6 +72,13 @@ export const skills = [
     name: "GitHub",
     description: "Plataforma para alojar y colaborar en proyectos de software.",
     icon: FaGithub,
+  },
+  {
+    id: 6,
+    name: "Supabase",
+    description:
+      "Supabase es una alternativa de código abierto a Firebase.",
+    icon: SiSupabase,
   },
   {
     id: 10,
