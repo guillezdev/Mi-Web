@@ -1,17 +1,16 @@
 import React from "react";
 import {
   FaReact,
-  FaGithub,
   FaExternalLinkAlt,
   FaCss3Alt
 } from "react-icons/fa";
 import { SiRedux, SiReactrouter } from "react-icons/si";
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs, SiSupabase } from "react-icons/si";
 import Danet from "../assets/danetproject.webp";
 import LogoYadel from '../assets/yadel.webp'
 import numeria from "../assets/numeriaa.webp";
+import superletter from "../assets/superletter.webp";
 import movie from "../assets/buscarpelis.webp";
-import { Nextjs } from "../data/Nextjs";
 
 function ProjectCard(props) {
   const { title, description, imageSrc, githubLink, liveLink, tags, index } = props;
@@ -25,8 +24,8 @@ function ProjectCard(props) {
         alt={title}
         className='w-full md:w-1/2 rounded-lg' />
       <div className="absolute -m-6 flex gap-2 items-center bg-fondo/60 backdrop-blur-sm p-2 rounded-xl w-fit text-lg">
-        {tags.map((Tag) => {
-          return <Tag className='hover:text-primary' hover={`primary`} size={35} />
+        {tags.map((Tag, index) => {
+          return <Tag key={index} className='hover:text-primary' hover={`primary`} size={35} />
         })}
       </div>
       <div className="flex flex-col gap-2 w-full md:w-1/2">
@@ -51,14 +50,15 @@ function ProjectCard(props) {
 }
 
 function Projects() {
+
   const projects = [
     {
-      title: "Numeria",
-      description: "Realiza cálculos en el ámbito de las matemáticas numéricas.",
-      imageSrc: numeria,
-      githubLink: "https://github.com/wolfsoul01/Proyecto-Numeria-Web",
-      liveLink: "https://numeria.netlify.app/",
-      tags: [FaReact, SiTailwindcss, SiReactrouter],
+      title: "SuperLetter",
+      description: "SuperLetter es mi proyecto personal, creado con la intención de ofrecer un espacio dedicado a los amantes de la literatura. En SuperLetter, todo es gratuito. La plataforma te permite encontrar tus libros favoritos y publicar tus propias obras literarias.",
+      imageSrc: superletter,
+      githubLink: "",
+      liveLink: "https://superletter.netlify.app/",
+      tags: [FaReact, SiTailwindcss, SiSupabase],
     },
     {
       title: "Danet",
@@ -83,6 +83,14 @@ function Projects() {
       githubLink: "#",
       liveLink: "https://search-muvie.netlify.app",
       tags: [FaReact, SiRedux, FaCss3Alt],
+    },
+    {
+      title: "Numeria",
+      description: "Realiza cálculos en el ámbito de las matemáticas numéricas.",
+      imageSrc: numeria,
+      githubLink: "https://github.com/wolfsoul01/Proyecto-Numeria-Web",
+      liveLink: "https://numeria.netlify.app/",
+      tags: [FaReact, SiTailwindcss, SiReactrouter],
     },
   ];
 
