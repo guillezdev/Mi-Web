@@ -6,8 +6,6 @@ import {
 } from "react-icons/fa";
 import { SiRedux, SiReactrouter } from "react-icons/si";
 import { SiTailwindcss, SiNextdotjs, SiSupabase } from "react-icons/si";
-import Danet from "../assets/danetproject.webp";
-import LogoYadel from '../assets/yadel.webp'
 import numeria from "../assets/numeriaa.webp";
 import superletter from "../assets/superletter.webp";
 import movie from "../assets/buscarpelis.webp";
@@ -61,22 +59,6 @@ function Projects() {
       tags: [FaReact, SiTailwindcss, SiSupabase],
     },
     {
-      title: "Danet",
-      description: "Salón de belleza que ofrece una variedad de servicios.",
-      imageSrc: Danet,
-      githubLink: "https://github.com/guillezdev/Salon-de-Belleza-Danet",
-      liveLink: "https://danetdelatorre.vercel.app/",
-      tags: [FaReact, SiTailwindcss, SiReactrouter],
-    },
-    {
-      title: "L&RAlteration",
-      description: "Servicios de confección y modificaciones de prendas.",
-      imageSrc: LogoYadel,
-      githubLink: "https://github.com/guillezdev/Costura-Alteraciones",
-      liveLink: "https://alteration.netlify.app/",
-      tags: [SiNextdotjs, SiTailwindcss],
-    },
-    {
       title: "Search-muvie",
       description: "Descubre tus películas y series favoritas.",
       imageSrc: movie,
@@ -102,7 +84,7 @@ function Projects() {
             Proyectos
           </h2>
           <h1 className='text-4xl mb-10 -mt-16 max-w-2xl ml-6 text-white'>
-            Explora los <span className="text-primary">proyectos</span> en los que he trabajado.
+            Una selección de mis <span className="text-primary">proyectos</span> favoritos, puede ver mas en mi <a className="hover:text-primary hover:underline underline-offset-4" target="_blank" href="https://github.com/guillezdev" aria-label="Enlace a guithub">GitHub</a>
           </h1>
         </div>
         <div className='flex flex-col gap-16 justify-center items-center py-16 md:py-32'>
