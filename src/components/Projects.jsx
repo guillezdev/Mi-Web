@@ -34,10 +34,10 @@ function ProjectCard(props) {
             <a className="text-2xl font-extralight text-primary" target="_blank" href={githubLink}>Github</a>
             <FaGithub size={25} />
           </div> */}
-          <div className="flex items-center gap-2 hover:underline hover:text-primary pb-1 hover:border-primary cursor-pointer">
-            <a className="text-2xl font-extralight text-primary" target="_blank" href={liveLink}>Ver</a>
+          <a target="_blank" href={liveLink} className="flex items-center gap-2 hover:underline hover:text-primary pb-1 hover:border-primary cursor-pointer">
+            <span className="text-2xl font-extralight text-primary">Ver</span>
             <FaExternalLinkAlt size={25} />
-          </div>
+          </a>
 
         </div>
 
