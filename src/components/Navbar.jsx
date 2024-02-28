@@ -2,9 +2,11 @@ import React, { useState, useEffect } from "react";
 import { Transition } from "@headlessui/react";
 import { Link } from "react-scroll";
 
-const Navbar = () => {
+export const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+  const [prevScrollpos, setPrevScrollpos] = useState(window.scrollY);
+  const [visible, setVisible] = useState(true);
 
   useEffect(() => {
     const handleResize = () => {
@@ -12,17 +14,27 @@ const Navbar = () => {
       setIsMobile(width < 640);
     };
 
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      setVisible(prevScrollpos > currentScrollPos || currentScrollPos < 10);
+      setPrevScrollpos(currentScrollPos);
+    };
+
     handleResize();
     window.addEventListener("resize", handleResize);
+    window.addEventListener("scroll", handleScroll);
 
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [prevScrollpos]);
 
   return (
     <>
       <div className="h-16"></div>
       <nav
-        className={`fixed py-0 top-0 inset-x-0 z-50 backdrop-filter bg-opacity-10 shadow-sm backdrop-blur-sm`}
+        className={`fixed py-0 top-0 inset-x-0 z-50 backdrop-filter bg-fondo bg-opacity-95 shadow-sm backdrop-blur-xl ${visible ? "" : "-translate-y-full"}`}
       >
         <div className="max-w-7xl mx-auto py-4 px-4">
 
@@ -181,5 +193,4 @@ const Navbar = () => {
     </>
   );
 };
-
-export default Navbar;
+export default Navbar

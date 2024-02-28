@@ -44,7 +44,7 @@ function Home() {
             </a>
           </div>
         </div>
-        <img className="w-1/2 md:flex-1 hidden md:block" src={imgfront} alt="img" />
+        <img className="w-1/2 md:flex-1 hidden md:block aspect-square" src={imgfront} alt="img" />
       </div>
     </header>
   );
