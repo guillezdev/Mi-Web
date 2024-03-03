@@ -48,7 +48,7 @@ export const Navbar = () => {
               cursor="pointer"
               className="text-xl font-bold text-primary cursor-pointer select-none hover:scale-90"
             >
-              Portafolio
+              @guillezdev
             </Link>
 
             <div className="hidden md:block">
