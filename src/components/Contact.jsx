@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import imgcont from "../assets/redes.svg";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaTelegram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { BsClipboard, BsClipboardCheck } from "react-icons/bs";
 
@@ -57,7 +57,8 @@ function Contact() {
             </div>
             <div className="flex flex-col justify-center items-center gap-4">
               <p className="relative text-xl"><span className="absolute -left-2  peer-hover:text-7xl text-primary font-extrabold">-</span>Redes sociales</p>
-              <div className="flex gap-6 ">
+              <div className="flex items-center gap-6 ">
+                <a className="text-secundary hover:text-primary md:scale-125 hover:-translate-y-2 hover:rotate-3" target="_blank" href="https://t.me/guillezdev" aria-label="Enlace a Telegram"><FaTelegram size={40} /></a>
                 <a className="text-secundary hover:text-primary md:scale-125 hover:-translate-y-2 hover:rotate-3" target="_blank" href="https://github.com/guillezdev" aria-label="Enlace a guithub"><FaGithub size={40} /></a>
                 <a className="text-secundary hover:text-primary md:scale-125 hover:-translate-y-2 hover:rotate-3" target="_blank" href="https://www.linkedin.com/in/guillezdev/" aria-label="Enlace a Linkedin"><FaLinkedin size={40} /></a>
               </div>
