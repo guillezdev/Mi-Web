@@ -10,7 +10,7 @@ export default {
         'fondo': '#121821',
         'fondoclaro': '#222831',
         'primary': '#75C2F6',
-        'secundary': '#828891',
+        'secundary': '#cbd5e1',
       },
     },
   },

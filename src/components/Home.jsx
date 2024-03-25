@@ -7,7 +7,7 @@ import pdfFile from "../../public/cv/guillezdev-cv.pdf";
 function Home() {
   return (
     <header className="max-w-7xl mx-auto mb-10 text-white py-16" id="home">
-      <div className="flex flex-col md:flex-row justify-center items-center">
+      <div className="flex flex-col md:flex-row justify-center items-center p-2">
         <div className="flex-1 px-4 lg:text-left w-full md:w-1/2">
           <h4 className="text-2xl font-bold mb-2">¡Hola Mundo! soy</h4>
           <h1 className="text-4xl sm:text-6xl font-bold pb-1 text-primary">

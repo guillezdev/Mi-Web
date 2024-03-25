@@ -28,7 +28,7 @@ function ProjectCard(props) {
       </div>
       <div className="flex flex-col gap-2 w-full md:w-1/2">
         <h1 className="text-5xl border-b-2 border-r-2 py-4 border-primary">{title}</h1>
-        <p className="text-secundary text-2xl">{description}</p>
+        <p className="text-secundary text-xl">{description}</p>
         <div className="flex gap-4">
           {/* <div className="flex items-center gap-2 hover:underline hover:text-primary pb-1 hover:border-primary cursor-pointer">
             <a className="text-2xl font-extralight text-primary" target="_blank" href={githubLink}>Github</a>
@@ -84,10 +84,10 @@ function Projects() {
             Proyectos
           </h2>
           <h1 className='text-4xl mb-10 -mt-16 max-w-2xl ml-6 text-white'>
-            Una selección de mis <span className="text-primary">proyectos</span> favoritos, puede ver mas en mi <a className="hover:text-primary hover:underline underline-offset-4" target="_blank" href="https://github.com/guillezdev" aria-label="Enlace a guithub">GitHub</a>
+            Una selección de mis <span className="text-primary">proyectos</span> favoritos, puede ver más en mi <a className="hover:text-primary hover:underline underline-offset-4" target="_blank" href="https://github.com/guillezdev" aria-label="Enlace a guithub">GitHub</a>
           </h1>
         </div>
-        <div className='flex flex-col gap-16 justify-center items-center py-16 md:py-32'>
+        <div className='flex flex-col gap-16 justify-center items-center py-16 md:py-32 p-2'>
           {projects.map((project, index) => (
             <ProjectCard key={project.title} {...project} index={index} />
           ))}

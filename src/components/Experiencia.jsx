@@ -1,26 +1,25 @@
 import React from 'react'
-
+import godjangollc from '../assets/godjangollc.png';
 const experiencias = [
   {
     id: 1,
-    title: "SuperLetter",
-    description: "SuperLetter es un proyecto personal, creado con la intención de ofrecer un espacio dedicado a los amantes de la literatura. En SuperLetter, todo es gratuito. La plataforma te permite encontrar tus libros favoritos y publicar tus propias obras literarias.",
-    bgColor: "bg-gray-400",
-    textColor: "text-gray-800"
+    title: "GoDjango LLC",
+    description: "Como parte de mi rol de Desarrollador Front-End en GoDjango LLC, he contribuido al desarrollo de interfaces de usuario modernas y reactivas utilizando React JS. Mis responsabilidades incluyen colaborar en proyectos dinámicos, asegurando una experiencia de usuario óptima y eficiente en aplicaciones web.",
+    startDate: "Marzo 2024",
+    endDate: "Actualidad",
+    img: godjangollc,
+    position: "Desarrollador Front-End",
+    skills: ["React", "RTK", "Tailwind", "MUI"]
   },
   {
     id: 2,
-    title: "Search-muvie",
-    description: "Descubre tus películas y series favoritas.",
-    bgColor: "bg-red-400",
-    textColor: "text-white"
-  },
-  {
-    id: 3,
-    title: "Numeria",
-    description: "Realiza cálculos en el ámbito de las matemáticas numéricas.",
-    bgColor: "bg-gray-400",
-    textColor: "text-gray-800"
+    title: "Freelancer",
+    description: "A lo largo de mi carrera como freelancer, he tenido la oportunidad de colaborar en una diversidad de proyectos, entre los cuales destaco mi contribución en Nuovit, Apeteat y Aquaviaspa. En estos proyectos, puse en práctica y perfeccioné mis habilidades en desarrollo front-end, logrando resultados significativos y recibiendo reconocimientos por mi dedicación y compromiso.",
+    startDate: "Octubre 2022",
+    endDate: "Marzo 2024",
+    img: "",
+    position: "Desarrollador Front-End",
+    skills: ["Html", "Css", "JavaScript", "Tailwind", "Sass ", "ReactJS"]
   },
 ]
 
@@ -36,24 +35,24 @@ function Experiencia() {
             Mi recorrido <span className="text-primary">laboral</span> como desarrollador.
           </h1>
         </div>
-        <div className='w-full h-fit flex flex-col md:flex-row justify-between px-4 text-secundary'>
-          <div className="container mx-auto w-full h-full">
-            <div className="relative wrap overflow-hidden p-10 h-full">
-              <div className="border-2-2 absolute border-opacity-20 border-gray-700 h-full border lg:left-1/2" ></div>
-              {experiencias.map((exp, index) => (
-                <div key={exp.id} className={`mb-8 flex ${index % 2 === 0 ? "justify-between" : "justify-between lg:flex-row-reverse"} items-center w-full ${index % 2 === 0 ? "right-timeline" : "left-timeline"}`}>
-                  <div className="order-1 w-5/12"></div>
-                  <div className="z-20 flex items-center order-1 bg-fondo shadow-xl w-8 h-8 rounded-full">
-                    <h1 className="mx-auto font-semibold text-lg text-primary">{exp.id}</h1>
-                  </div>
-                  <div className={`order-1 bg-fondo rounded-lg shadow-xl w-5/12 px-6 py-4`}>
-                    <h3 className={`mb-3 font-bold text-white text-xl`}>{exp.title}</h3>
-                    <p className="text-sm leading-snug tracking-wide text-secundary text-opacity-100">{exp.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
+        <div className='w-full h-fit flex flex-col md:flex-row justify-between text-secundary px-10'>
+          <ol class="relative border-s border-gray-700">
+            {experiencias.map((exp) => (
+              <li class="mb-10 ml-6 px-3">
+                <span class={`absolute flex items-center justify-center w-14 h-14 p-1 bg-fondo rounded-md -start-7 `}>
+                  <img className='object-cover rounded-md' src={exp.img} alt=""/>
+                </span>
+                <h3 class="mb-1 text-2xl md:text-3xl text-white">{exp.title} - <span class="text-secondary-500">{exp.position}</span></h3>
+                <time class="block mb-1 text-base md:text-lg font-normal leading-none text-gray-400 ">{exp.startDate} - {exp.endDate}</time>
+                <p class="mb-4  text-lg md:text-xl font-normal leading-relaxed text-gray-300 max-w-3xl">{exp.description}</p>
+                <ul class="flex flex-row gap-4 flex-wrap">
+                  {exp.skills.map(skill => (
+                    <li class="bg-gray-700 text-white py-1 px-3 rounded">{skill}</li>
+                  ))}
+                </ul>
+              </li>
+            ))}
+          </ol>
         </div>
       </div>
     </section>
@@ -61,3 +60,4 @@ function Experiencia() {
 }
 
 export default Experiencia
+
