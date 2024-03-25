@@ -27,7 +27,7 @@ function Experiencia() {
   return (
     <section className='bg-black/50'>
       <div className='max-w-7xl mx-auto h-fit py-16'>
-        <div className='flex flex-col sm:items-end px-4'>
+        <div className='flex flex-col sm:items-end px-4 '>
           <h2 className='text-6xl md:text-9xl font-bold bg-clip-text text-transparent bg-primary/10 pb-5 mb-4 select-none'>
             Experiencia
           </h2>
@@ -35,7 +35,7 @@ function Experiencia() {
             Mi recorrido <span className="text-primary">laboral</span> como desarrollador.
           </h1>
         </div>
-        <div className='w-full h-fit flex flex-col md:flex-row justify-between text-secundary px-10'>
+        <div className='w-full h-fit flex flex-col md:flex-row justify-between text-secundary px-10 mt-14  md:mt-20'>
           <ol class="relative border-s border-gray-700">
             {experiencias.map((exp) => (
               <li class="mb-10 ml-6 px-3">
