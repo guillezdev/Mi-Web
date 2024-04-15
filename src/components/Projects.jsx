@@ -2,13 +2,17 @@ import React from "react";
 import {
   FaReact,
   FaExternalLinkAlt,
-  FaCss3Alt
+  FaCss3Alt,
+  FaHtml5,
+  FaBootstrap,
+  FaJs,
+  FaGithub
 } from "react-icons/fa";
-import { SiRedux, SiReactrouter } from "react-icons/si";
+import { SiRedux, SiReactrouter, SiJavascript, SiTypescript, SiStorybook } from "react-icons/si";
 import { SiTailwindcss, SiNextdotjs, SiSupabase } from "react-icons/si";
-import numeria from "../assets/numeriaa.webp";
+import acuavia from "../assets/acuavia.webp";
 import superletter from "../assets/superletter.webp";
-import movie from "../assets/buscarpelis.webp";
+import apeteat from "../assets/apeteat.webp";
 
 function ProjectCard(props) {
   const { title, description, imageSrc, githubLink, liveLink, tags, index } = props;
@@ -30,10 +34,12 @@ function ProjectCard(props) {
         <h1 className="text-5xl border-b-2 border-r-2 py-4 border-primary">{title}</h1>
         <p className="text-secundary text-xl">{description}</p>
         <div className="flex gap-4">
-          {/* <div className="flex items-center gap-2 hover:underline hover:text-primary pb-1 hover:border-primary cursor-pointer">
-            <a className="text-2xl font-extralight text-primary" target="_blank" href={githubLink}>Github</a>
-            <FaGithub size={25} />
-          </div> */}
+          {
+            githubLink && <div className="flex items-center gap-2 hover:underline hover:text-primary pb-1 hover:border-primary cursor-pointer">
+              <a className="text-2xl font-extralight text-primary" target="_blank" href={githubLink}>Github</a>
+              <FaGithub size={25} />
+            </div>
+          }
           <a target="_blank" href={liveLink} className="flex items-center gap-2 hover:underline hover:text-primary pb-1 hover:border-primary cursor-pointer">
             <span className="text-2xl font-extralight text-primary">Ver</span>
             <FaExternalLinkAlt size={25} />
@@ -59,20 +65,18 @@ function Projects() {
       tags: [FaReact, SiTailwindcss, SiSupabase],
     },
     {
-      title: "Search-muvie",
-      description: "Descubre tus películas y series favoritas.",
-      imageSrc: movie,
-      githubLink: "#",
-      liveLink: "https://search-muvie.netlify.app",
-      tags: [FaReact, SiRedux, FaCss3Alt],
+      title: "Apeteat",
+      description: "Contribuí a Apeteat transformando diseños en realidad funcional. Como especialista en maquetación, aseguré que la calidad y frescura de sus servicios de alimentación en Barcelona y Madrid se tradujeran en una experiencia de usuario impecable y técnicamente sólida.",
+      imageSrc: apeteat,
+      liveLink: "https://www.apeteat.com/",
+      tags: [FaHtml5, SiTailwindcss, FaJs],
     },
     {
-      title: "Numeria",
-      description: "Realiza cálculos en el ámbito de las matemáticas numéricas.",
-      imageSrc: numeria,
-      githubLink: "https://github.com/wolfsoul01/Proyecto-Numeria-Web",
-      liveLink: "https://numeria.netlify.app/",
-      tags: [FaReact, SiTailwindcss, SiReactrouter],
+      title: "Acuavia Spa",
+      description: "Desarrollé un sistema de diseño para Acuavia Spa con StoryBook, enfocado en diseño responsivo y compatibilidad entre dispositivos, potenciando la mantenibilidad y escalabilidad de los componentes visuales",
+      imageSrc: acuavia,
+      liveLink: "https://www.aquaviaspa.es/",
+      tags: [FaHtml5, FaBootstrap, SiTypescript, SiStorybook],
     },
   ];
 

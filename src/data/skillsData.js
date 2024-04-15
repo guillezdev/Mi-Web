@@ -5,10 +5,11 @@ import {
   FaGitAlt,
   FaGithub,
   FaFigma,
-  FaSass
+  FaSass,
+  FaBootstrap
 
 } from "react-icons/fa";
-import { SiRedux, SiTailwindcss, SiJavascript, SiSupabase } from "react-icons/si";
+import { SiRedux, SiTailwindcss, SiJavascript, SiSupabase, SiTypescript } from "react-icons/si";
 
 
 
@@ -35,6 +36,13 @@ export const skills = [
     icon: FaSass,
   },
   {
+    id: 12,
+    name: "Bootstrap",
+    description:
+      "Framework CSS para diseños personalizados y responsivos eficientes.",
+    icon: FaBootstrap,
+  },
+  {
     id: 3,
     name: "Tailwind",
     description:
@@ -47,6 +55,13 @@ export const skills = [
     description:
       "Lenguaje de programación para desarrollar sitios web interactivos.",
     icon: SiJavascript,
+  },
+  {
+    id: 14,
+    name: "Typescript",
+    description:
+      "Lenguaje de programación para desarrollar sitios web interactivos.",
+    icon: SiTypescript,
   },
   {
     id: 5,
