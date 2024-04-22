@@ -15,7 +15,7 @@ import superletter from "../assets/superletter.webp";
 import apeteat from "../assets/apeteat.webp";
 
 function ProjectCard(props) {
-  const { title, description, imageSrc, githubLink, liveLink, tags, index } = props;
+  const { title, description, imageSrc, githubLink, liveLink, tags, index, coworkerLink, coworker_name } = props;
 
   return (
     <section className={`flex flex-col ${index % 2 !== 0 ? 'md:flex-row-reverse' : 'md:flex-row'} relative gap-8 text-white items-center w-full`}>
@@ -45,8 +45,13 @@ function ProjectCard(props) {
             <FaExternalLinkAlt size={25} />
           </a>
 
-        </div>
 
+        </div>
+        {
+          coworkerLink && <div className="flex items-center gap-2 hover:underline hover:text-primary pb-1 hover:border-primary cursor-pointer">
+            <a className="text-2xl font-extralight text-primary" target="_blank" href={coworkerLink}>Coworker: {'@' + coworker_name}</a>
+          </div>
+        }
       </div>
     </section>
 
@@ -69,6 +74,8 @@ function Projects() {
       description: "Contribuí a Apeteat transformando diseños en realidad funcional. Como especialista en maquetación, aseguré que la calidad y frescura de sus servicios de alimentación en Barcelona y Madrid se tradujeran en una experiencia de usuario impecable y técnicamente sólida.",
       imageSrc: apeteat,
       liveLink: "https://www.apeteat.com/",
+      coworkerLink: 'https://fgbyte.com/project/aquavia',
+      coworker_name: 'fgbyte',  
       tags: [FaHtml5, SiTailwindcss, FaJs],
     },
     {
@@ -76,6 +83,8 @@ function Projects() {
       description: "Desarrollé un sistema de diseño para Acuavia Spa con StoryBook, enfocado en diseño responsivo y compatibilidad entre dispositivos, potenciando la mantenibilidad y escalabilidad de los componentes visuales",
       imageSrc: acuavia,
       liveLink: "https://www.aquaviaspa.es/",
+      coworkerLink: 'https://fgbyte.com/project/aquavia',
+      coworker_name: 'fgbyte',   
       tags: [FaHtml5, FaBootstrap, SiTypescript, SiStorybook],
     },
   ];
