@@ -74,7 +74,7 @@ function Projects() {
       description: "Contribuí a Apeteat transformando diseños en realidad funcional. Como especialista en maquetación, aseguré que la calidad y frescura de sus servicios de alimentación en Barcelona y Madrid se tradujeran en una experiencia de usuario impecable y técnicamente sólida.",
       imageSrc: apeteat,
       liveLink: "https://www.apeteat.com/",
-      coworkerLink: 'https://fgbyte.com/project/aquavia',
+      coworkerLink: 'https://fgbyte.com/project/apeteat',
       coworker_name: 'fgbyte',  
       tags: [FaHtml5, SiTailwindcss, FaJs],
     },
