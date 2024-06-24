@@ -9,11 +9,8 @@ import {
   FaBootstrap
 
 } from "react-icons/fa";
-import { SiRedux, SiTailwindcss, SiJavascript, SiSupabase, SiTypescript } from "react-icons/si";
+import { SiRedux, SiTailwindcss, SiJavascript, SiSupabase, SiTypescript, SiMui  } from "react-icons/si";
 
-
-
-import { Nextjs } from './Nextjs'
 
 export const skills = [
   {
@@ -41,6 +38,12 @@ export const skills = [
     description:
       "Framework CSS para diseños personalizados y responsivos eficientes.",
     icon: FaBootstrap,
+  },
+  {
+    id: 15,
+    name: "Material UI",
+    description: "Framework CSS para diseñar interfaces de usuario modernas.",
+    icon: SiMui,
   },
   {
     id: 3,
@@ -71,7 +74,7 @@ export const skills = [
   },
   {
     id: 7,
-    name: "Redux",
+    name: "Redux-Toolkit",
     description: "Librería para gestionar el estado global de una aplicación.",
     icon: SiRedux,
   },
