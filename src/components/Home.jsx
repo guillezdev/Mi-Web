@@ -33,7 +33,7 @@ function Home() {
             >
               <FaPhoneAlt />
               Contactar
-            </Link>
+            </Link>pa
             <a
               href={pdfFile}
               download="guillezdev-cv.pdf"
