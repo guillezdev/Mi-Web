@@ -36,7 +36,7 @@ function Home() {
             </Link>
             <a
               href={pdfFile}
-              download="guillezdev-cv.pdf"
+              download="guillezdev-cv-v2.pdf"
               className="flex items-center font-semibold w-32 gap-2 bg-fondo border-[2px] hover:shadow-lg hover:-translate-y-1 hover:rotate-1 hover:shadow-primary border-primary rounded-md py-2 px-4 cursor-pointer"
             >
               <FaDownload />
